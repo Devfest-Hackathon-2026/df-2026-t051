@@ -1,0 +1,401 @@
+{
+  "output": "chartbridge-demo-final.mp4",
+  "duration_seconds": 90.366667,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2711,
+  "size_bytes": 3128061,
+  "sha256": "e16fcd4c74ca58f9bc86db8cae0dda13f4f60ef386c91e5d93ccc931e1ad5977",
+  "base_mp4_preserved": true,
+  "base_sha256": "2a9adf7e27da30fec473dd9225affc29aed286f61a6c9d03054d5dee95fcf23b",
+  "full_decode_success": true,
+  "black_segments": [],
+  "freeze_detector_log": [
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 0.1",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.2",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 4.3",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 4.5",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.1",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 8.6",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 10.533333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.666667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 15.2",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 15.333333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.866667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 20.2",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 21.466667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 9.066667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 30.533333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 30.733333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 8.133333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 38.866667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 38.966667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 5.6",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 44.566667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 45.1",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.3",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 49.4",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 49.5",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 4.133333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 53.633333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 54.133333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 7.733333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 61.866667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 62.066667",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 9.633333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 71.7",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 71.8",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 3.2",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 75",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 75",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 5.4",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 80.4",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_start: 80.6",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_duration: 9.733333",
+    "[Parsed_freezedetect_1 @ 00000242b3bfe600] lavfi.freezedetect.freeze_end: 90.333333"
+  ],
+  "freeze_interpretation": "Static login/title cards, actual model waiting, and result reading holds are intentional. All 14 scenes match real source footage; fades and browser playback are checked separately.",
+  "font": "Yu Gothic UI Semibold, actual TTC face 2 selected",
+  "font_size_px": 46,
+  "subtitle_background_black_opacity": 0.65,
+  "subtitle_max_lines": 2,
+  "subtitle_does_not_overlap_ui": true,
+  "scene_checks": [
+    {
+      "scene": "title",
+      "sample_time": 2.2666666666666666,
+      "source_picture_mean_error": 0.107,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        479,
+        26,
+        1296,
+        109
+      ],
+      "black_background_pixel": [
+        0,
+        12,
+        16
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "login",
+      "sample_time": 6.533333333333333,
+      "source_picture_mean_error": 0.27,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        490,
+        26,
+        1277,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        12,
+        16
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "ready",
+      "sample_time": 9.533333333333333,
+      "source_picture_mean_error": 0.229,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        490,
+        27,
+        1277,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "select",
+      "sample_time": 12.8,
+      "source_picture_mean_error": 0.194,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        576,
+        26,
+        1191,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "analysis",
+      "sample_time": 18.266666666666666,
+      "source_picture_mean_error": 0.117,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        497,
+        26,
+        1279,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "review",
+      "sample_time": 26.0,
+      "source_picture_mean_error": 0.204,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        519,
+        26,
+        1248,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "edit",
+      "sample_time": 34.733333333333334,
+      "source_picture_mean_error": 0.205,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        546,
+        26,
+        1220,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "null",
+      "sample_time": 41.766666666666666,
+      "source_picture_mean_error": 0.192,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        517,
+        26,
+        1250,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "saveapprove",
+      "sample_time": 47.03333333333333,
+      "source_picture_mean_error": 0.221,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        541,
+        26,
+        1213,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "share",
+      "sample_time": 51.53333333333333,
+      "source_picture_mean_error": 0.164,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        471,
+        26,
+        1296,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "student",
+      "sample_time": 57.8,
+      "source_picture_mean_error": 0.189,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        508,
+        25,
+        1268,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "compare",
+      "sample_time": 66.83333333333333,
+      "source_picture_mean_error": 0.135,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        512,
+        25,
+        1254,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "nullstudent",
+      "sample_time": 76.1,
+      "source_picture_mean_error": 0.15,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        543,
+        26,
+        1223,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        13,
+        17
+      ],
+      "background_opacity_65_percent_verified": true
+    },
+    {
+      "scene": "ending",
+      "sample_time": 85.36666666666666,
+      "source_picture_mean_error": 0.139,
+      "subtitle_white_line_count": 2,
+      "subtitle_bbox_in_box": [
+        494,
+        26,
+        1273,
+        104
+      ],
+      "black_background_pixel": [
+        0,
+        12,
+        16
+      ],
+      "background_opacity_65_percent_verified": true
+    }
+  ],
+  "crossfade_checks": [
+    {
+      "boundary": 1,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 1.141
+    },
+    {
+      "boundary": 2,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.459
+    },
+    {
+      "boundary": 3,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.837
+    },
+    {
+      "boundary": 4,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.238
+    },
+    {
+      "boundary": 5,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.81
+    },
+    {
+      "boundary": 6,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.926
+    },
+    {
+      "boundary": 7,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.484
+    },
+    {
+      "boundary": 8,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.546
+    },
+    {
+      "boundary": 9,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.265
+    },
+    {
+      "boundary": 10,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.589
+    },
+    {
+      "boundary": 11,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.8
+    },
+    {
+      "boundary": 12,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 0.29
+    },
+    {
+      "boundary": 13,
+      "duration_frames": 7,
+      "midpoint_blend_mean_error": 1.321
+    }
+  ],
+  "new_api_calls": 0,
+  "production_changes": 0,
+  "gemini_wait_speed_changed": false,
+  "manual_visual_review": "All 14 scene samples and full-resolution review/comparison views inspected. White semibold captions are readable inside the reserved lower band. Buttons, values and comparison results remain visible. All 13 fades are matched against real source images.",
+  "browser_full_playback": {
+    "ended": true,
+    "duration": 90.366667,
+    "width": 1920,
+    "height": 1080,
+    "currentTime": 90.366667,
+    "mediaError": null,
+    "totalVideoFrames": 2711,
+    "droppedVideoFrames": 0,
+    "success": true
+  },
+  "unexpected_playback_stop": false
+}

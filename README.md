@@ -24,9 +24,15 @@
 
 **審査員用アカウントについて：** 利用する場合は、運営・審査員向けの非公開連絡手段でチームから個別に案内します。READMEに共通パスワードや認証情報は掲載しません。アカウント未受領の場合も、上の学生用デモはすぐに体験できます。新規登録だけでは教員権限は付与されません。教員操作にはFirebase認証・教員権限・教材所有者の検証があります。
 
-### デモ動画（完成後に掲載）
+### デモ動画（約90秒・日本語字幕）
 
-**動画URL：未掲載。完成後、この位置に約90秒のデモ動画リンクを掲載します。** 現時点では上の学生用デモを直接体験してください。[動画の構成・デモ台本](docs/submission/DEMO_90_SECONDS.md)を用意しています。評価値は[11月9日の最新監査](docs/PRE_SUBMISSION_AUDIT.md)を優先してください。
+**[▶ 完成版デモ動画を開く（MP4）](output/submission/chartbridge-demo-final.mp4)**
+
+[![ChartBridgeのデモ動画：画像解析から教員確認・承認、学生の比較へ](output/submission/chartbridge-demo-final-poster.jpg)](output/submission/chartbridge-demo-final.mp4)
+
+約90.4秒・1080p・30fpsの字幕版（ナレーションなし）。実Gemini解析 → 教員の確認・編集・承認 → 未ログインの学生による数値比較と未確定値の計算停止を、実画面で紹介します。認証情報の入力中は非収録で、解析待機は短縮していません。
+
+GitHub上で再生されない場合は、[MP4をダウンロードして再生](https://github.com/Devfest-Hackathon-2026/df-2026-t051/raw/refs/heads/main/output/submission/chartbridge-demo-final.mp4)してください。[SRT字幕](output/submission/chartbridge-demo-final.srt) / [構成・収録内容](docs/submission/DEMO_90_SECONDS.md) / [映像の検査記録](output/submission/chartbridge-demo-final-verification.json)。評価値は[11月9日の最新監査](docs/PRE_SUBMISSION_AUDIT.md)を優先してください。
 
 ### 体験時の注意
 
@@ -54,7 +60,7 @@
 
 - [教員画面](https://chartbridge-gqe6dtznpq-an.a.run.app/) — 通常ブラウザで利用できます。教員操作はFirebase認証・教員権限・教材所有者の確認で保護しています。
 - [学生向け教材例：12と18の比較](https://chartbridge-gqe6dtznpq-an.a.run.app/learn/6e24c58117ad4a6e88d610b9b09bb47c) — ログイン不要、承認済みデータだけを返します。
-- [操作・最後の手動確認](docs/PRODUCTION_AUDIT.md) / [約90秒のデモ台本](docs/submission/DEMO_90_SECONDS.md)。録画自体は未作成。
+- [操作・最後の手動確認](docs/PRODUCTION_AUDIT.md) / [約90秒の完成デモ動画](output/submission/chartbridge-demo-final.mp4) / [構成・収録記録](docs/submission/DEMO_90_SECONDS.md)。
 - 公開版は `chartbridge-00011-suh`、検証済み製品コード `adb182f`。[公開認可・費用・復旧手順](docs/final-audit/PUBLIC_RELEASE_REVIEW.md)。解析はUIDごと10回/日・全体30回/日の予約枠で制限します。
 
 ## 対応範囲
