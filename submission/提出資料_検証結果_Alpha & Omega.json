@@ -1,0 +1,105 @@
+{
+  "status": "TEAM_REVIEW_COPY",
+  "official_submission_completed": false,
+  "member_names_blank": true,
+  "personal_growth_blank": true,
+  "copyright_attestations_blank": true,
+  "docs_template_required_structure_present": true,
+  "sheets_template_first_seven_headers_preserved": true,
+  "copyright_entries": 258,
+  "examples_removed": true,
+  "slides": 8,
+  "editable_native_slide_shapes": 70,
+  "speaker_notes": 8,
+  "talk_design_seconds": 235,
+  "talk_rehearsal_measured": false,
+  "buffer_seconds": 5,
+  "embedded_mp4_sha256": "e16fcd4c74ca58f9bc86db8cae0dda13f4f60ef386c91e5d93ccc931e1ad5977",
+  "embedded_mp4_equal_to_original": true,
+  "native_powerpoint_playback_tested": false,
+  "google_slides_conversion_or_playback_tested": false,
+  "docx_title_sanitizer_passed": true,
+  "docx_pagination_rendered": false,
+  "docx_render_limitation": "LibreOffice soffice.exe not installed. Seven-page same-content PDF preview was generated separately and visually inspected; it is not a Word pagination rendering.",
+  "product_pdf_pages": 7,
+  "slides_pdf_pages": 8,
+  "slide_render_readback": [
+    {
+      "slide": 1,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 2,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 3,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 4,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 5,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 6,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 7,
+      "mean_pixel_difference": 0.0
+    },
+    {
+      "slide": 8,
+      "mean_pixel_difference": 0.0
+    }
+  ],
+  "secret_scan_files": 7,
+  "secret_scan_matches": 0,
+  "product_source": "README, existing audit/evaluation/license evidence; no new product execution or performance tests",
+  "source_template_rules_checked": "2026-11-09",
+  "deadline_jst": "2026-11-10 19:00",
+  "files": [
+    {
+      "path": "プロダクト説明ドキュメント_Alpha & Omega.docx",
+      "bytes": 112292,
+      "sha256": "3668f24ef8d80f6164446d024f00de01f5e072c8ddda66873c9d90e04b5b55ec"
+    },
+    {
+      "path": "プロダクト説明ドキュメント_Alpha & Omega_確認用.pdf",
+      "bytes": 330244,
+      "sha256": "c151011792ab762d7edc99d85257238a661741bb14bb874e6c652f565db25fb1"
+    },
+    {
+      "path": "プロダクト説明ドキュメント_Alpha & Omega.md",
+      "bytes": 10351,
+      "sha256": "9aba0678d000d624e5e33f67d55fe798aa60af30c0ce17fabacf44b64665124b"
+    },
+    {
+      "path": "著作物利用シート_Alpha & Omega.xlsx",
+      "bytes": 24864,
+      "sha256": "d6352955bb62e6d62595bd17148f002a5f757dcdb51b7eabd446404d87c0e187"
+    },
+    {
+      "path": "プレゼンスライド_Alpha & Omega.pptx",
+      "bytes": 2946560,
+      "sha256": "0193dbd47eca0ba8231281d470845c8f360fc4d7a27602073e83b2b309181747"
+    },
+    {
+      "path": "プレゼンスライド_Alpha & Omega.pdf",
+      "bytes": 422866,
+      "sha256": "0c389eb8e278e0c1be8b346dac79be33af26e7594ff7da16f0fbd4deede5dd74"
+    },
+    {
+      "path": "発表原稿_Alpha & Omega.md",
+      "bytes": 3189,
+      "sha256": "435c24b4c80fbc3fdf680fbaf99c0bb82aeff03d126bfb4ef7cd27cf9b8f6b21"
+    }
+  ],
+  "original_local_verification_status": "LOCAL_REVIEW_ONLY",
+  "remote_actions_after_hold_at_original_verification": 0,
+  "current_authorization": "One GitHub-only team review publication. Drive operations and formal submission remain on hold."
+}
