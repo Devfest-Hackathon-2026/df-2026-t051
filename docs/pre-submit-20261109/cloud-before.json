@@ -1,0 +1,33 @@
+{
+  "revision": "chartbridge-00011-suh",
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "chartbridge-00011-suh"
+    }
+  ],
+  "url": "https://chartbridge-gqe6dtznpq-an.a.run.app",
+  "scaling": {
+    "autoscaling.knative.dev/maxScale": "1",
+    "run.googleapis.com/client-name": "gcloud",
+    "run.googleapis.com/client-version": "592.0.0",
+    "run.googleapis.com/startup-cpu-boost": "true"
+  },
+  "resources": {
+    "limits": {
+      "cpu": "1",
+      "memory": "512Mi"
+    }
+  },
+  "concurrency": 2,
+  "timeout": 60,
+  "auth_mode": "firebase",
+  "release_sha": "adb182fca2fd81f1f1eb0fe67870588e4262f52b",
+  "model": "gemini-3.8-flash",
+  "limits": {
+    "ANALYSIS_PER_MINUTE": "2",
+    "ANALYSIS_GLOBAL_DAY": "30",
+    "PUBLIC_READ_PER_MINUTE": "60",
+    "API_REQUESTS_PER_MINUTE": "240"
+  }
+}

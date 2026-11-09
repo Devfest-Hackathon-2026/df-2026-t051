@@ -1,0 +1,1352 @@
+{
+  "cases": [
+    {
+      "id": "JP-H06",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H06-v2.png",
+      "image_sha256": "6719a4f7d27b60ad61c985ec4030b91f3800629ba71c2eef3c901dd4665ebb73",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+        "table_sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+        "column_zero_based": 2,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          1876000.0,
+          1627000.0,
+          1496000.0,
+          1434000.0,
+          1325000.0,
+          1328000.0,
+          1300000.0,
+          1254000.0,
+          1251000.0,
+          1181000.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "だいこんのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 188
+          },
+          {
+            "label": "17",
+            "value": 163
+          },
+          {
+            "label": "22",
+            "value": 150
+          },
+          {
+            "label": "27",
+            "value": 143
+          },
+          {
+            "label": "29",
+            "value": 133
+          },
+          {
+            "label": "30",
+            "value": 133
+          },
+          {
+            "label": "令和元",
+            "value": 130
+          },
+          {
+            "label": "2",
+            "value": 125
+          },
+          {
+            "label": "3",
+            "value": 125
+          },
+          {
+            "label": "4",
+            "value": 118
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H07",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H07-v2.png",
+      "image_sha256": "a3e6c23e9bc786980d1860886470166d024f1c3ae4408ea5a18dfdc3f252771c",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0",
+        "table_sha256": "a18a891c2eb97e7b294b515bea23868f3d34c70abd0760e541a6c5425076fa6b",
+        "column_zero_based": 17,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          1449000.0,
+          1364000.0,
+          1360000.0,
+          1469000.0,
+          1428000.0,
+          1467000.0,
+          1472000.0,
+          1434000.0,
+          1485000.0,
+          1458000.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "キャベツのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 145
+          },
+          {
+            "label": "17",
+            "value": 136
+          },
+          {
+            "label": "22",
+            "value": 136
+          },
+          {
+            "label": "27",
+            "value": 147
+          },
+          {
+            "label": "29",
+            "value": 143
+          },
+          {
+            "label": "30",
+            "value": 147
+          },
+          {
+            "label": "令和元",
+            "value": 147
+          },
+          {
+            "label": "2",
+            "value": 143
+          },
+          {
+            "label": "3",
+            "value": 149
+          },
+          {
+            "label": "4",
+            "value": 146
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H08",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H08-v2.png",
+      "image_sha256": "05778c4aff763f96147d5eff7c9b7e2d8c7ee87f4a2f2b41df1a7654cf9cf769",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+        "table_sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+        "column_zero_based": 47,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          171400.0,
+          153800.0,
+          137300.0,
+          140400.0,
+          147000.0,
+          140300.0,
+          145700.0,
+          143100.0,
+          148500.0,
+          150000.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "ピーマンのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 17
+          },
+          {
+            "label": "17",
+            "value": 15
+          },
+          {
+            "label": "22",
+            "value": 14
+          },
+          {
+            "label": "27",
+            "value": 14
+          },
+          {
+            "label": "29",
+            "value": 15
+          },
+          {
+            "label": "30",
+            "value": 14
+          },
+          {
+            "label": "令和元",
+            "value": 15
+          },
+          {
+            "label": "2",
+            "value": 14
+          },
+          {
+            "label": "3",
+            "value": 15
+          },
+          {
+            "label": "4",
+            "value": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H09",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H09-v2.png",
+      "image_sha256": "ed26e5ebff32c24469715550889ee23b70cbe9a46caa3ecd4c04f705fe9ecf6d",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+        "table_sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+        "column_zero_based": 23,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          806300.0,
+          759200.0,
+          690900.0,
+          727000.0,
+          737200.0,
+          724200.0,
+          720600.0,
+          706000.0,
+          725200.0,
+          707900.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "トマトのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 81
+          },
+          {
+            "label": "17",
+            "value": 76
+          },
+          {
+            "label": "22",
+            "value": 69
+          },
+          {
+            "label": "27",
+            "value": 73
+          },
+          {
+            "label": "29",
+            "value": 74
+          },
+          {
+            "label": "30",
+            "value": 72
+          },
+          {
+            "label": "令和元",
+            "value": 72
+          },
+          {
+            "label": "2",
+            "value": 71
+          },
+          {
+            "label": "3",
+            "value": 73
+          },
+          {
+            "label": "4",
+            "value": 71
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H10",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H10-v2.png",
+      "image_sha256": "9d36aaff03992dd1346ecd6a88a8e69b02088ae9fa10cb3821d065848cd61a9d",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+        "table_sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+        "column_zero_based": 14,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          476900.0,
+          395700.0,
+          330100.0,
+          308900.0,
+          307800.0,
+          300400.0,
+          301700.0,
+          297000.0,
+          297700.0,
+          294600.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "なすのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 48
+          },
+          {
+            "label": "17",
+            "value": 40
+          },
+          {
+            "label": "22",
+            "value": 33
+          },
+          {
+            "label": "27",
+            "value": 31
+          },
+          {
+            "label": "29",
+            "value": 31
+          },
+          {
+            "label": "30",
+            "value": 30
+          },
+          {
+            "label": "令和元",
+            "value": 30
+          },
+          {
+            "label": "2",
+            "value": 30
+          },
+          {
+            "label": "3",
+            "value": 30
+          },
+          {
+            "label": "4",
+            "value": 29
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H11",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H11-v2.png",
+      "image_sha256": "58296118e3ba21e27c44c923238b91958bf8fa10e93112897421aa7794ffd83c",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+        "table_sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+        "column_zero_based": 17,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          681700.0,
+          614900.0,
+          595700.0,
+          633100.0,
+          596500.0,
+          574700.0,
+          594900.0,
+          585900.0,
+          635500.0,
+          582100.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "にんじんのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 68
+          },
+          {
+            "label": "17",
+            "value": 61
+          },
+          {
+            "label": "22",
+            "value": 60
+          },
+          {
+            "label": "27",
+            "value": 63
+          },
+          {
+            "label": "29",
+            "value": 60
+          },
+          {
+            "label": "30",
+            "value": 57
+          },
+          {
+            "label": "令和元",
+            "value": 59
+          },
+          {
+            "label": "2",
+            "value": 59
+          },
+          {
+            "label": "3",
+            "value": 64
+          },
+          {
+            "label": "4",
+            "value": 58
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H12",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H12-v2.png",
+      "image_sha256": "f1fff7289efab179ee6f95748053d4fb861393f08ac9226c8d6fbe04fe37a8d4",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+        "table_sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+        "column_zero_based": 35,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          2898000.0,
+          2752000.0,
+          2290000.0,
+          2406000.0,
+          2395000.0,
+          2260000.0,
+          2399000.0,
+          2205000.0,
+          2175000.0,
+          2283000.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "じゃがいものとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 290
+          },
+          {
+            "label": "17",
+            "value": 275
+          },
+          {
+            "label": "22",
+            "value": 229
+          },
+          {
+            "label": "27",
+            "value": 241
+          },
+          {
+            "label": "29",
+            "value": 240
+          },
+          {
+            "label": "30",
+            "value": 226
+          },
+          {
+            "label": "令和元",
+            "value": 240
+          },
+          {
+            "label": "2",
+            "value": 221
+          },
+          {
+            "label": "3",
+            "value": 218
+          },
+          {
+            "label": "4",
+            "value": 228
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H13",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H13-v2.png",
+      "image_sha256": "44a9133c6a7bb7b4b6aa6e4a6c375e1b7351e73ed193d6d28ed9afd88f2c1bc4",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040421665&fileKind=0",
+        "table_sha256": "6ccf9ca5e8ffa70cb85f3b8a9e8b73ffefcfc78d375bb9d6a07e6201b8c15b49",
+        "column_zero_based": 2,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          1143000.0,
+          1132000.0,
+          786000.0,
+          777800.0,
+          741300.0,
+          773700.0,
+          746700.0,
+          765800.0,
+          749000.0,
+          682200.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "みかんのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 114
+          },
+          {
+            "label": "17",
+            "value": 113
+          },
+          {
+            "label": "22",
+            "value": 79
+          },
+          {
+            "label": "27",
+            "value": 78
+          },
+          {
+            "label": "29",
+            "value": 74
+          },
+          {
+            "label": "30",
+            "value": 77
+          },
+          {
+            "label": "令和元",
+            "value": 75
+          },
+          {
+            "label": "2",
+            "value": 77
+          },
+          {
+            "label": "3",
+            "value": 75
+          },
+          {
+            "label": "4",
+            "value": 68
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-H14",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-H14-v2.png",
+      "image_sha256": "e29bf21b3882f832878c530b99e5ca92df9e260b59778e9761ee59ad09f56bc2",
+      "gold_evidence": {
+        "table_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040421905&fileKind=0",
+        "table_sha256": "8b0f7779f48d99b92215a9a98538e54cb1184bae650da0cc836548a7b3cbdc49",
+        "column_zero_based": 2,
+        "rows_zero_based": [
+          34,
+          39,
+          44,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "raw_tonnes": [
+          799600.0,
+          818900.0,
+          786500.0,
+          811500.0,
+          735200.0,
+          756100.0,
+          701600.0,
+          763300.0,
+          661900.0,
+          737100.0
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "りんごのとれた量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "平成12年",
+            "value": 80
+          },
+          {
+            "label": "17",
+            "value": 82
+          },
+          {
+            "label": "22",
+            "value": 79
+          },
+          {
+            "label": "27",
+            "value": 81
+          },
+          {
+            "label": "29",
+            "value": 74
+          },
+          {
+            "label": "30",
+            "value": 76
+          },
+          {
+            "label": "令和元",
+            "value": 70
+          },
+          {
+            "label": "2",
+            "value": 76
+          },
+          {
+            "label": "3",
+            "value": 66
+          },
+          {
+            "label": "4",
+            "value": 74
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P00",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P00-v2.png",
+      "image_sha256": "f69c5d7241cd5b8f2c3c909f56b07cf7bf7732b43c7bbdfbb0651b1701f49ab9",
+      "gold_evidence": {
+        "sheet_number": 5,
+        "cells": [
+          "E28",
+          "E17",
+          "E18",
+          "E62",
+          "E30"
+        ],
+        "raw_tonnes": [
+          "144900",
+          "128800",
+          "107300",
+          "90400",
+          "75400"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "だいこん生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "千葉",
+            "value": 14
+          },
+          {
+            "label": "北海道",
+            "value": 13
+          },
+          {
+            "label": "青森",
+            "value": 11
+          },
+          {
+            "label": "鹿児島",
+            "value": 9
+          },
+          {
+            "label": "神奈川",
+            "value": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P01",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P01-v2.png",
+      "image_sha256": "7a71d03e293be9de3faf75f70f42ac339dfb98e4d82522ace5cfcb95967fe6bb",
+      "gold_evidence": {
+        "sheet_number": 6,
+        "cells": [
+          "E26",
+          "E39",
+          "E28",
+          "E24",
+          "E62"
+        ],
+        "raw_tonnes": [
+          "284500",
+          "268900",
+          "109600",
+          "106900",
+          "74500"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "キャベツ生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "群馬",
+            "value": 28
+          },
+          {
+            "label": "愛知",
+            "value": 27
+          },
+          {
+            "label": "千葉",
+            "value": 11
+          },
+          {
+            "label": "茨城",
+            "value": 11
+          },
+          {
+            "label": "鹿児島",
+            "value": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P02",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P02-v2.png",
+      "image_sha256": "dc5caf152b1da5b4cbe719810a115238a2d5f1ca493b5b4f05966621711ffecf",
+      "gold_evidence": {
+        "sheet_number": 7,
+        "cells": [
+          "E24",
+          "E61",
+          "E55",
+          "E62",
+          "E19"
+        ],
+        "raw_tonnes": [
+          "33300",
+          "28100",
+          "13800",
+          "13300",
+          "8480"
+        ],
+        "rounding": "tonnes / 1000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "ピーマン生産量",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "茨城",
+            "value": 33
+          },
+          {
+            "label": "宮崎",
+            "value": 28
+          },
+          {
+            "label": "高知",
+            "value": 14
+          },
+          {
+            "label": "鹿児島",
+            "value": 13
+          },
+          {
+            "label": "岩手",
+            "value": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P03",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P03-v2.png",
+      "image_sha256": "ba098d96d6b81a5d461c69efa8a9c9d10dbf56fe9b95a4463bc07779d37ff0e1",
+      "gold_evidence": {
+        "sheet_number": 8,
+        "cells": [
+          "E60",
+          "E18",
+          "E40",
+          "E25",
+          "E26"
+        ],
+        "raw_tonnes": [
+          "130300",
+          "62900",
+          "47700",
+          "46300",
+          "32000"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "トマト生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "熊本",
+            "value": 13
+          },
+          {
+            "label": "北海道",
+            "value": 6
+          },
+          {
+            "label": "愛知",
+            "value": 5
+          },
+          {
+            "label": "茨城",
+            "value": 5
+          },
+          {
+            "label": "栃木",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P04",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P04-v2.png",
+      "image_sha256": "49c14336917e76cf2e176d9296c8fff7855a456575a260cea63c2b841483dfbe",
+      "gold_evidence": {
+        "sheet_number": 9,
+        "cells": [
+          "E55",
+          "E59",
+          "E26",
+          "E24",
+          "E56"
+        ],
+        "raw_tonnes": [
+          "40600",
+          "33400",
+          "28500",
+          "17900",
+          "17500"
+        ],
+        "rounding": "tonnes / 1000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "なす生産量",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "高知",
+            "value": 41
+          },
+          {
+            "label": "熊本",
+            "value": 33
+          },
+          {
+            "label": "群馬",
+            "value": 29
+          },
+          {
+            "label": "茨城",
+            "value": 18
+          },
+          {
+            "label": "福岡",
+            "value": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P05",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P05-v2.png",
+      "image_sha256": "c105c35a65a1a92009336e6e0668d94efebb911657fd2c1a9d21f1cce46d0ad0",
+      "gold_evidence": {
+        "sheet_number": 10,
+        "cells": [
+          "E17",
+          "E28",
+          "E52",
+          "E18",
+          "E58"
+        ],
+        "raw_tonnes": [
+          "168200",
+          "110500",
+          "48500",
+          "34400",
+          "32900"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "にんじん生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": 17
+          },
+          {
+            "label": "千葉",
+            "value": 11
+          },
+          {
+            "label": "徳島",
+            "value": 5
+          },
+          {
+            "label": "青森",
+            "value": 3
+          },
+          {
+            "label": "長崎",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P06",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P06-v2.png",
+      "image_sha256": "f964ab0764c71c159b95079aa9869d7d0c526dd7f94edd493fb03d067e3268eb",
+      "gold_evidence": {
+        "sheet_number": 11,
+        "cells": [
+          "E17",
+          "E62",
+          "E58",
+          "E24",
+          "E28"
+        ],
+        "raw_tonnes": [
+          "1819000",
+          "97600",
+          "83900",
+          "48500",
+          "28100"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "じゃがいも生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": 182
+          },
+          {
+            "label": "鹿児島",
+            "value": 10
+          },
+          {
+            "label": "長崎",
+            "value": 8
+          },
+          {
+            "label": "茨城",
+            "value": 5
+          },
+          {
+            "label": "千葉",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P07",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P07-v2.png",
+      "image_sha256": "4f68e4c7b84ebbedb649385a0f6894aa74d496f0cda6ce39c0a4d6bb1ac3961d",
+      "gold_evidence": {
+        "sheet_number": 12,
+        "cells": [
+          "E24",
+          "E36",
+          "E26",
+          "E27",
+          "E17"
+        ],
+        "raw_tonnes": [
+          "244100",
+          "233500",
+          "27000",
+          "24800",
+          "23500"
+        ],
+        "rounding": "tonnes / 10000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "はくさい生産量",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "茨城",
+            "value": 24
+          },
+          {
+            "label": "長野",
+            "value": 23
+          },
+          {
+            "label": "群馬",
+            "value": 3
+          },
+          {
+            "label": "埼玉",
+            "value": 2
+          },
+          {
+            "label": "北海道",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P08",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P08-v2.png",
+      "image_sha256": "942ed5f314d13612c8637e40df8c4834ff027f08f50d2930c5e3d4c622162c43",
+      "gold_evidence": {
+        "sheet_number": 13,
+        "cells": [
+          "E61",
+          "E26",
+          "E27",
+          "E23",
+          "E28"
+        ],
+        "raw_tonnes": [
+          "64500",
+          "55800",
+          "44000",
+          "40500",
+          "31400"
+        ],
+        "rounding": "tonnes / 1000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "きゅうり生産量",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "宮崎",
+            "value": 65
+          },
+          {
+            "label": "群馬",
+            "value": 56
+          },
+          {
+            "label": "埼玉",
+            "value": 44
+          },
+          {
+            "label": "福島",
+            "value": 41
+          },
+          {
+            "label": "千葉",
+            "value": 31
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P10",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P10-v2.png",
+      "image_sha256": "afde3226f9b62edaab14adbb46ac566987ef1e0046d30b7a38ba99b93190d8e6",
+      "gold_evidence": {
+        "sheet_number": 15,
+        "cells": [
+          "E24",
+          "E28",
+          "E27",
+          "E17",
+          "E26"
+        ],
+        "raw_tonnes": [
+          "54300",
+          "53800",
+          "51300",
+          "19600",
+          "18200"
+        ],
+        "rounding": "tonnes / 1000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "ねぎ生産量",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "茨城",
+            "value": 54
+          },
+          {
+            "label": "千葉",
+            "value": 54
+          },
+          {
+            "label": "埼玉",
+            "value": 51
+          },
+          {
+            "label": "北海道",
+            "value": 20
+          },
+          {
+            "label": "群馬",
+            "value": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "JP-P11",
+      "source_group": "maff-jiten-2024",
+      "source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "gold_source_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "cache": ".tmp/final-audit/jp-crops/JP-P11-v2.png",
+      "image_sha256": "2c2ba12c6823d68623b0fc1a309cb5793c5e40e7cc83d29301cf9eaf9242faca",
+      "gold_evidence": {
+        "sheet_number": 16,
+        "cells": [
+          "E26",
+          "E27",
+          "E28",
+          "E24",
+          "E61"
+        ],
+        "raw_tonnes": [
+          "22300",
+          "21800",
+          "20700",
+          "18100",
+          "12200"
+        ],
+        "rounding": "tonnes / 1000, integer ROUND_HALF_UP"
+      },
+      "gold": {
+        "supported": true,
+        "title": "ほうれんそう生産量",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "群馬",
+            "value": 22
+          },
+          {
+            "label": "埼玉",
+            "value": 22
+          },
+          {
+            "label": "千葉",
+            "value": 21
+          },
+          {
+            "label": "茨城",
+            "value": 18
+          },
+          {
+            "label": "宮崎",
+            "value": 12
+          }
+        ]
+      }
+    }
+  ]
+}

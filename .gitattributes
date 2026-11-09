@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+# Preserve whitespace in upstream license texts and the original competition README.
+docs/third-party-notices.txt whitespace=-blank-at-eol,-blank-at-eof
+docs/competition-readme.md whitespace=-blank-at-eof
+LICENSE whitespace=-blank-at-eof

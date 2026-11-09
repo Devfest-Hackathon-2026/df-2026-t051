@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-06",
+  "cloudRevision": "chartbridge-00009-z6n",
+  "final": {
+    "pythonApi": {"passed": 46, "failed": 0},
+    "studentMath": {"passed": 4, "failed": 0},
+    "playwrightLocal": {"passed": 16, "failed": 0},
+    "deployedFirestoreRules": {"passed": 45, "failed": 0},
+    "realFirebaseCloudE2E": {"passed": 1, "failed": 0, "seconds": 32.0},
+    "legacyIamCloudE2E": {"skipped": 1, "reason": "Service now uses Firebase authentication"},
+    "totalPassed": 112,
+    "totalFailed": 0,
+    "totalSkipped": 1,
+    "typescript": "passed",
+    "productionBuild": "passed",
+    "securitySmoke": "passed"
+  },
+  "realServices": ["Firebase Authentication", "Gemini PNG/JPEG", "Firestore", "GCS", "Cloud Run", "Firestore Rules test API"],
+  "accessibility": {
+    "axeViolationsInTestedStates": 0,
+    "teacherAndStudentViewportWidths": [320, 390, 1280],
+    "keyboardAndFocusAssertions": "passed",
+    "ariaSnapshotsRecorded": true,
+    "realScreenReaderSpeech": "not tested",
+    "physicalMobileAssistiveTechnology": "not tested"
+  },
+  "failuresDuringWork": [
+    "Local UI: 2 failed when its API was not running; added dedicated automatic API startup; final 16 passed.",
+    "API invocation: import collection and fixture paths depended on current directory; added pytest.ini and absolute fixture path; final 46 passed.",
+    "Cloud E2E: missing-label fixture rejected with 422. Replaced with supported fully labelled input; teacher explicitly clears a value to exercise null safety.",
+    "Cloud E2E: 320px layout assertion failed during three diagnostic runs due to long login email text; enabled wrapping; final real flow passed."
+  ],
+  "warnings": ["Starlette TestClient/httpx deprecation warning; runtime dependencies unchanged"],
+  "evaluationSeparateFromRegressionTests": {
+    "realMaterialImages": 6,
+    "completeMatch": 3,
+    "schemaFailures": 2,
+    "numericCorrect": 19,
+    "numericTotal": 30,
+    "meanSeconds": 18.145,
+    "postEvaluationSafetyGuardIsNotIndependentAccuracyValidation": true
+  }
+}

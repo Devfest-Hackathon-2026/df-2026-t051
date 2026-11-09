@@ -1,0 +1,8 @@
+{
+  "revision": "chartbridge-00011-suh",
+  "image_digest": "asia-northeast1-docker.pkg.dev/chartbridge-gdgoc-2026/cloud-run-source-deploy/chartbridge@sha256:b86c44a8a99fac8ab077ae1c3cb3cd2e17cbff39c17e1ea5c9c1e43a4cfabc4f",
+  "git_sha": "adb182fca2fd81f1f1eb0fe67870588e4262f52b",
+  "cloud_url": "https://judge-ready---chartbridge-gqe6dtznpq-an.a.run.app",
+  "proxy_url": "http://127.0.0.1:8088",
+  "public_access_flag": "true"
+}

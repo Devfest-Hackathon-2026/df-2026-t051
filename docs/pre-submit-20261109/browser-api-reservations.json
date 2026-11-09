@@ -1,0 +1,27 @@
+{
+  "maximum_generations": 5,
+  "maximum_counts": 5,
+  "indices": [
+    {
+      "generation": 457,
+      "count": 458
+    },
+    {
+      "generation": 459,
+      "count": 460
+    },
+    {
+      "generation": 461,
+      "count": 462
+    },
+    {
+      "generation": 463,
+      "count": 464
+    },
+    {
+      "generation": 465,
+      "count": 466
+    }
+  ],
+  "note": "Four planned analyses plus a conservative reserve for a quota probe. Rejected probe is not claimed as a real model generation."
+}

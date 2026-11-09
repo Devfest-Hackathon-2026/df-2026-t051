@@ -1,0 +1,10 @@
+{
+  "archive": "output/submission/chartbridge-presubmit-initial-20261109.zip",
+  "sha256": "f8f998ebf0cb30f0b1258e7b014d4db23be611d14c5344b095f32e6bf633ca11",
+  "files": 312,
+  "bytes": 5944864,
+  "gitHistoryIncluded": false,
+  "secretPatternFindings": 0,
+  "geminiKeyMatch": false,
+  "publicRepositoryPush": false
+}

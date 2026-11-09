@@ -1,0 +1,13 @@
+{
+  "actual_key_absent_from_files": true,
+  "files_inspected": 353,
+  "key_absent_from_public_assets_config_snapshot": true,
+  "key_absent_from_inspected_logs": true,
+  "log_entries_inspected": 158,
+  "public_assets": 2,
+  "anonymous_analyze": 401,
+  "invalid_token": 401,
+  "snapshot_only_approved_fields": true,
+  "public_invoker": true,
+  "production_source_unmodified": true
+}

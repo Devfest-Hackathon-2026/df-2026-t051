@@ -1,0 +1,7 @@
+{
+  "started_at": "2026-11-09T01:25:16.588671+00:00",
+  "status": 200,
+  "elapsed_ms": 8745.87,
+  "classification": "first observed request; cold start requires matching instance-start logs",
+  "server_timing": null
+}

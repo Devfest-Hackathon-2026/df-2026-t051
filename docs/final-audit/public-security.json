@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-11-06T09:36:45.952234+00:00",
+  "url": "https://chartbridge-gqe6dtznpq-an.a.run.app",
+  "revision": "chartbridge-00011-suh",
+  "git_sha": "adb182fca2fd81f1f1eb0fe67870588e4262f52b",
+  "image_digest": "asia-northeast1-docker.pkg.dev/chartbridge-gdgoc-2026/cloud-run-source-deploy/chartbridge@sha256:b86c44a8a99fac8ab077ae1c3cb3cd2e17cbff39c17e1ea5c9c1e43a4cfabc4f",
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "chartbridge-00011-suh"
+    }
+  ],
+  "service_public_invoker_binding": true,
+  "invoker_check_not_disabled": true,
+  "firebase_teacher_authentication": true,
+  "public_access_flag": true,
+  "secret_is_reference": true,
+  "key_absent_from_tracked_untracked_build_files": true,
+  "key_absent_from_inspected_logs": true,
+  "key_absent_from_public_responses_assets": true,
+  "files_inspected": 303,
+  "log_entries_inspected": 300,
+  "public_assets_inspected": 2,
+  "gcs_public_access_prevention": "enforced",
+  "gcs_uniform_access": true,
+  "anonymous_firestore_status": 403,
+  "anonymous_gcs_status": 403,
+  "private_teacher_api_checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/config",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/drafts",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/analyze",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/drafts",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/images/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/.env",
+      "status": 404
+    }
+  ],
+  "daily_analysis_limit": "30",
+  "teacher_day_limit": "10",
+  "success": true
+}

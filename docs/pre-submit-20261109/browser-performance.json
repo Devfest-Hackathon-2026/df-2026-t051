@@ -1,0 +1,163 @@
+{
+  "student": [
+    {
+      "index": 2,
+      "elapsed_ms": 3059.6603,
+      "success": true
+    },
+    {
+      "index": 1,
+      "elapsed_ms": 3106.4236,
+      "success": true
+    },
+    {
+      "index": 0,
+      "elapsed_ms": 3116.285,
+      "success": true
+    }
+  ],
+  "comparison": [
+    {
+      "index": 2,
+      "round": 0,
+      "elapsed_ms": 80.5906,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 1,
+      "round": 0,
+      "elapsed_ms": 62.87920000000031,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 0,
+      "round": 0,
+      "elapsed_ms": 55.69259999999986,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 2,
+      "round": 1,
+      "elapsed_ms": 62.66620000000012,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 0,
+      "round": 1,
+      "elapsed_ms": 60.97970000000032,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 1,
+      "round": 1,
+      "elapsed_ms": 63.04449999999997,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 2,
+      "round": 2,
+      "elapsed_ms": 62.373999999999796,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 1,
+      "round": 2,
+      "elapsed_ms": 58.94370000000026,
+      "success": true,
+      "own_server_requests": 0
+    },
+    {
+      "index": 0,
+      "round": 2,
+      "elapsed_ms": 60.3411000000001,
+      "success": true,
+      "own_server_requests": 0
+    }
+  ],
+  "analysis": [
+    {
+      "index": 0,
+      "fixture": "sample.png",
+      "started_at": "2026-11-09T01:33:01.004Z",
+      "status": 200,
+      "api_ms": 4187.449400000001,
+      "success": true,
+      "unknowns": 0,
+      "image_id": "e299d2ca3b7f421ca8009ddfe6ae45e7",
+      "categories": 2,
+      "selection_to_render_ms": 4215.088600000003
+    },
+    {
+      "index": 1,
+      "fixture": "JP-H06-v2.png",
+      "started_at": "2026-11-09T01:33:01.005Z",
+      "status": 200,
+      "api_ms": 4774.0098,
+      "success": true,
+      "unknowns": 0,
+      "image_id": "3c72a0d645f2409c8f8ddc7d1d870e33",
+      "categories": 10,
+      "selection_to_render_ms": 4803.163799999998
+    },
+    {
+      "index": 2,
+      "fixture": "sample.jpg",
+      "started_at": "2026-11-09T01:33:06.269Z",
+      "status": 200,
+      "api_ms": 3622.216700000001,
+      "success": true,
+      "unknowns": 0,
+      "image_id": "6a83f962fdb7428e9b3369b68ed33590",
+      "categories": 2,
+      "selection_to_render_ms": 3647.6274999999987
+    },
+    {
+      "index": 3,
+      "fixture": "JP-P02-v2.png",
+      "started_at": "2026-11-09T01:33:06.269Z",
+      "status": 200,
+      "api_ms": 3985.3768999999993,
+      "success": true,
+      "unknowns": 4,
+      "image_id": "2cecf052ff2f4a539b5b58bff6c2c3ae",
+      "categories": 5,
+      "selection_to_render_ms": 4013.8485
+    }
+  ],
+  "mixed": [
+    {
+      "wave": 0,
+      "status": 200,
+      "elapsed_ms": 3789.693500000001
+    },
+    {
+      "wave": 1,
+      "status": 200,
+      "elapsed_ms": 3229.5314
+    }
+  ],
+  "errors": [
+    {
+      "kind": "actual_401",
+      "status": 401
+    },
+    {
+      "kind": "actual_403",
+      "status": 403
+    },
+    {
+      "kind": "actual_quota_429",
+      "status": 429,
+      "retry_after": "55"
+    }
+  ],
+  "cloudRequests": 36,
+  "studentAnalyzeRequests": 0
+}

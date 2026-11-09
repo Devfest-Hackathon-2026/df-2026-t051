@@ -1,0 +1,34 @@
+{
+  "model_generations": 0,
+  "checks": [
+    {
+      "method": "POST",
+      "path": "/api/drafts/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/approve",
+      "status": 403
+    },
+    {
+      "method": "PUT",
+      "path": "/api/drafts/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/drafts",
+      "status": 403
+    },
+    {
+      "method": "GET",
+      "path": "/api/images/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 403
+    }
+  ],
+  "public_read_probe": {
+    "maximum_requests": 61,
+    "actual_requests": 61,
+    "ok_responses": 60,
+    "limited_responses": 1,
+    "retry_after_present": true
+  },
+  "success": true,
+  "disposable_account_deleted": true
+}

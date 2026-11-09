@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-11-06T07:53:33.607251+00:00",
+  "split": "anomaly",
+  "mode": "baseline",
+  "model": "gemini-3.8-flash",
+  "code": {
+    "backend/app/extraction.py": "4f0a45463bbb162b9b5dd00cf28b11e2680e38fddcd17f74d555a23049807866",
+    "backend/app/models.py": "a0b8cea72f86be085143067a1bfc0515c15558cf7cf422b41c2d9bafe7484546",
+    "backend/app/safety.py": "2c87f4d65c4c70c0abfb490493a5f04a272dddb5840242dd046589ef3592a657",
+    "backend/app/numeric_labels.py": "34832d0a8ea101a6387540766b8c3b5f66d613aeea57ef9bb431eeb22cf028a4",
+    "backend/app/main.py": "c258be2613b643c2592184294a83a28d1d2696f9d9596e76e5e0dfd55fe22e87",
+    "scripts/eval_core.py": "4dca416ee5c07ec5036cdae11f50023469f8e8d651c277a802cce8974f91fc3a",
+    "scripts/run_large_evaluation.py": "0d6b23c2ef3faffcb5a7a247a3a245d89a966c92c3a1c042f684d4a1631d2c8e"
+  },
+  "dataset_sha256": "98d6c4e85870eaf40d325ad6f1acd510e41bd0ec15c6e4fcadf7007375981d85",
+  "commit": "1cc28be970ba1a26769ed37eff4d2ca34bca5c9f",
+  "sdk_retries": 1,
+  "maximum_concurrent_cases": 2,
+  "max_retries_per_request": 2,
+  "request_start_interval_seconds": 5.1,
+  "reserved_for_final_usd": "0.921600",
+  "completed_at": "2026-11-06T07:53:34.191583+00:00",
+  "completed_cases": 1,
+  "planned_cases": 1,
+  "stopped": false
+}

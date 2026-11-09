@@ -1,0 +1,746 @@
+{
+  "version": "fixed-v1",
+  "synthetic": true,
+  "generation": "Pillow deterministic single-series vertical bars, every bar has a printed value; no random seed needed",
+  "font": {
+    "name": "Windows Meiryo (rendered only; font file not distributed)",
+    "sha256": "457b306f719a002f1d037b2a3942f2abfa8a55d7bb109bf8950341a3129adb46"
+  },
+  "generator_sha256": "dab1974cfb2bf52e5712b0c1386c7dfee7ff70f11ba18391bfea3d17bf19bd2e",
+  "cases": [
+    {
+      "id": "E01",
+      "difficulty": "easy",
+      "image": "E01.png",
+      "mime": "image/png",
+      "sha256": "26aaff6d50842df429132ab750dd4137ef0e9bc0951aa1eaafae3a006f561904",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Library visits",
+        "unit": null,
+        "categories": [
+          {
+            "label": "Mon",
+            "value": 7
+          },
+          {
+            "label": "Tue",
+            "value": 23
+          }
+        ]
+      }
+    },
+    {
+      "id": "E02",
+      "difficulty": "easy",
+      "image": "E02.png",
+      "mime": "image/png",
+      "sha256": "3470ce342098c8233c865ff62a0fdb94cb57a326e13d79ab3e822866fb5f819e",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Plant height",
+        "unit": "cm",
+        "categories": [
+          {
+            "label": "Oak",
+            "value": 14
+          },
+          {
+            "label": "Pine",
+            "value": 9
+          },
+          {
+            "label": "Maple",
+            "value": 21
+          }
+        ]
+      }
+    },
+    {
+      "id": "E03",
+      "difficulty": "easy",
+      "image": "E03.jpg",
+      "mime": "image/jpeg",
+      "sha256": "c83e12f073fb9e52509d2afea90bc8a86aacca090a6cd45f9e4ef85d75c2bc8f",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "学年別の参加人数",
+        "unit": "人",
+        "categories": [
+          {
+            "label": "１年",
+            "value": 32
+          },
+          {
+            "label": "２年",
+            "value": 45
+          },
+          {
+            "label": "３年",
+            "value": 28
+          },
+          {
+            "label": "４年",
+            "value": 39
+          }
+        ]
+      }
+    },
+    {
+      "id": "E04",
+      "difficulty": "easy",
+      "image": "E04.png",
+      "mime": "image/png",
+      "sha256": "73d573e36953b92f26ad7bc4c4cc62336f89d296679a294f0cd86a30884210de",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "読んだ本の数",
+        "unit": "冊",
+        "categories": [
+          {
+            "label": "あお",
+            "value": 11
+          },
+          {
+            "label": "あか",
+            "value": 17
+          },
+          {
+            "label": "きいろ",
+            "value": 8
+          },
+          {
+            "label": "みどり",
+            "value": 24
+          },
+          {
+            "label": "しろ",
+            "value": 19
+          }
+        ]
+      }
+    },
+    {
+      "id": "E05",
+      "difficulty": "easy",
+      "image": "E05.png",
+      "mime": "image/png",
+      "sha256": "bc85df617fee144d7bf59ed12885826c83fb941a23576f0c5134ef03a151b9c6",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "月別の降水量",
+        "unit": "mm",
+        "categories": [
+          {
+            "label": "４月",
+            "value": 110
+          },
+          {
+            "label": "５月",
+            "value": 95
+          },
+          {
+            "label": "６月",
+            "value": 140
+          },
+          {
+            "label": "７月",
+            "value": 125
+          },
+          {
+            "label": "８月",
+            "value": 100
+          },
+          {
+            "label": "９月",
+            "value": 155
+          }
+        ]
+      }
+    },
+    {
+      "id": "E06",
+      "difficulty": "easy",
+      "image": "E06.jpg",
+      "mime": "image/jpeg",
+      "sha256": "848d1f1dd6d785fabcbd080c7087d4eb865f185aa5fdbfeef6e4d5d8cba6a369",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Response rate",
+        "unit": "%",
+        "categories": [
+          {
+            "label": "Group A",
+            "value": 25
+          },
+          {
+            "label": "Group B",
+            "value": 50
+          },
+          {
+            "label": "Group C",
+            "value": 75
+          }
+        ]
+      }
+    },
+    {
+      "id": "S07",
+      "difficulty": "standard",
+      "image": "S07.png",
+      "mime": "image/png",
+      "sha256": "68eadfcc6b3c08a75d4d117bae22082b76b0555398ab5b5e60adc06c3fe3c8cb",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "収穫した実の数",
+        "unit": "個",
+        "categories": [
+          {
+            "label": "東",
+            "value": 0
+          },
+          {
+            "label": "西",
+            "value": 8
+          },
+          {
+            "label": "南",
+            "value": 0
+          },
+          {
+            "label": "北",
+            "value": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "S08",
+      "difficulty": "standard",
+      "image": "S08.png",
+      "mime": "image/png",
+      "sha256": "f06d708f79f7cf5fbc3798c84b19e21c23c8ce654b327df6996d1929dff35930",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "朝の気温",
+        "unit": "℃",
+        "categories": [
+          {
+            "label": "月曜",
+            "value": -3
+          },
+          {
+            "label": "火曜",
+            "value": 5
+          },
+          {
+            "label": "水曜",
+            "value": -1
+          },
+          {
+            "label": "木曜",
+            "value": 8
+          },
+          {
+            "label": "金曜",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "S09",
+      "difficulty": "standard",
+      "image": "S09.jpg",
+      "mime": "image/jpeg",
+      "sha256": "70cc46ce10ef5ee29a0c2fccd47a31f715a10ebfdb574a187d5e29a1738d4f83",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Bag weight",
+        "unit": "kg",
+        "categories": [
+          {
+            "label": "Red",
+            "value": 1.5
+          },
+          {
+            "label": "Blue",
+            "value": 2.75
+          },
+          {
+            "label": "Green",
+            "value": 0.5
+          },
+          {
+            "label": "White",
+            "value": 3.25
+          }
+        ]
+      }
+    },
+    {
+      "id": "S10",
+      "difficulty": "standard",
+      "image": "S10.png",
+      "mime": "image/png",
+      "sha256": "a1c5259914ec4ca30107ba384ebed1f9a760affdf59547166394f6f8f8f1458e",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "文房具の売上",
+        "unit": "円",
+        "categories": [
+          {
+            "label": "ノート",
+            "value": 1200
+          },
+          {
+            "label": "ペン",
+            "value": 2500
+          },
+          {
+            "label": "定規",
+            "value": 1800
+          },
+          {
+            "label": "はさみ",
+            "value": 3200
+          },
+          {
+            "label": "のり",
+            "value": 2100
+          },
+          {
+            "label": "消しゴム",
+            "value": 900
+          }
+        ]
+      }
+    },
+    {
+      "id": "S11",
+      "difficulty": "standard",
+      "image": "S11.png",
+      "mime": "image/png",
+      "sha256": "f431799daafdc0dd577b2824676339800fad7960f071fc2a315e97b3b7d610ee",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Travel time",
+        "unit": "minutes",
+        "categories": [
+          {
+            "label": "A",
+            "value": 18
+          },
+          {
+            "label": "B",
+            "value": 22
+          },
+          {
+            "label": "C",
+            "value": 15
+          },
+          {
+            "label": "D",
+            "value": 31
+          },
+          {
+            "label": "E",
+            "value": 27
+          },
+          {
+            "label": "F",
+            "value": 14
+          },
+          {
+            "label": "G",
+            "value": 29
+          },
+          {
+            "label": "H",
+            "value": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12",
+      "difficulty": "standard",
+      "image": "S12.jpg",
+      "mime": "image/jpeg",
+      "sha256": "6cdd89e2f048207cbb4d79e8749f160ba3d78ed0ed758b7726011d16cf58e11d",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "練習の得点",
+        "unit": "点",
+        "categories": [
+          {
+            "label": "1回",
+            "value": 3
+          },
+          {
+            "label": "2回",
+            "value": 8
+          },
+          {
+            "label": "3回",
+            "value": 6
+          },
+          {
+            "label": "4回",
+            "value": 11
+          },
+          {
+            "label": "5回",
+            "value": 9
+          },
+          {
+            "label": "6回",
+            "value": 5
+          },
+          {
+            "label": "7回",
+            "value": 12
+          },
+          {
+            "label": "8回",
+            "value": 7
+          },
+          {
+            "label": "9回",
+            "value": 10
+          },
+          {
+            "label": "10回",
+            "value": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "S13",
+      "difficulty": "standard",
+      "image": "S13.png",
+      "mime": "image/png",
+      "sha256": "206ececf8f34b74ba8044689928d9dcf54f0d8450d52b0d3b17c074a6efefbde",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "クラブの参加人数",
+        "unit": "人",
+        "categories": [
+          {
+            "label": "A班",
+            "value": 7
+          },
+          {
+            "label": "B班",
+            "value": 11
+          },
+          {
+            "label": "C班",
+            "value": 5
+          },
+          {
+            "label": "D班",
+            "value": 13
+          },
+          {
+            "label": "E班",
+            "value": 9
+          },
+          {
+            "label": "F班",
+            "value": 16
+          },
+          {
+            "label": "G班",
+            "value": 8
+          },
+          {
+            "label": "H班",
+            "value": 12
+          },
+          {
+            "label": "I班",
+            "value": 6
+          },
+          {
+            "label": "J班",
+            "value": 15
+          },
+          {
+            "label": "K班",
+            "value": 10
+          },
+          {
+            "label": "L班",
+            "value": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": "S14",
+      "difficulty": "standard",
+      "image": "S14.png",
+      "mime": "image/png",
+      "sha256": "668a9e24e061f84fc1e4658df5408dc95fa5317a0d0df18636befdd11adb6efa",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "同じ値を含む記録",
+        "unit": null,
+        "categories": [
+          {
+            "label": "記録Ａ",
+            "value": 9
+          },
+          {
+            "label": "記録Ｂ",
+            "value": 9
+          },
+          {
+            "label": "記録Ｃ",
+            "value": 5
+          },
+          {
+            "label": "記録Ｄ",
+            "value": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "H15",
+      "difficulty": "hard",
+      "image": "H15.jpg",
+      "mime": "image/jpeg",
+      "sha256": "b2b5191b8f781910ad3d6512741ddd7edf03664562d676ce2b441b3bbf46fd18",
+      "size": [
+        850,
+        600
+      ],
+      "expected": {
+        "title": "Measured length",
+        "unit": "m",
+        "categories": [
+          {
+            "label": "Item A",
+            "value": 2.4
+          },
+          {
+            "label": "Item B",
+            "value": 2.6
+          },
+          {
+            "label": "Item C",
+            "value": 2.5
+          },
+          {
+            "label": "Item D",
+            "value": 2.7
+          },
+          {
+            "label": "Item E",
+            "value": 2.3
+          },
+          {
+            "label": "Item F",
+            "value": 2.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "H16",
+      "difficulty": "hard",
+      "image": "H16.png",
+      "mime": "image/png",
+      "sha256": "bab7ab3206dbd63164b393363bc51213f1fb027cd4e2444b941a049889ee3edb",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "地域別の利用人数",
+        "unit": "人",
+        "categories": [
+          {
+            "label": "中央図書館",
+            "value": 21
+          },
+          {
+            "label": "北地区図書館",
+            "value": 18
+          },
+          {
+            "label": "南地区図書館",
+            "value": 26
+          },
+          {
+            "label": "東地区図書館",
+            "value": 32
+          },
+          {
+            "label": "西地区図書館",
+            "value": 24
+          },
+          {
+            "label": "駅前図書館",
+            "value": 19
+          },
+          {
+            "label": "大学図書館",
+            "value": 28
+          },
+          {
+            "label": "分室図書館",
+            "value": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": "H17",
+      "difficulty": "hard",
+      "image": "H17.png",
+      "mime": "image/png",
+      "sha256": "87d4921ce9ee80794ed4b67e8b7b285517411ffafcf5a96fd6c73063a3caf6ab",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "観察した鳥の数",
+        "unit": "羽",
+        "categories": [
+          {
+            "label": "すずめ",
+            "value": 12
+          },
+          {
+            "label": "はと",
+            "value": 17
+          },
+          {
+            "label": "からす",
+            "value": 9
+          },
+          {
+            "label": "つばめ",
+            "value": 22
+          },
+          {
+            "label": "めじろ",
+            "value": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": "H18",
+      "difficulty": "hard",
+      "image": "H18.jpg",
+      "mime": "image/jpeg",
+      "sha256": "28ba80b640a23efc0e3e2d16f31171743247b193cb9637d46fd114efe5527deb",
+      "size": [
+        1100,
+        720
+      ],
+      "expected": {
+        "title": "Monthly attendance",
+        "unit": "people",
+        "categories": [
+          {
+            "label": "Jan",
+            "value": 9
+          },
+          {
+            "label": "Feb",
+            "value": 14
+          },
+          {
+            "label": "Mar",
+            "value": 8
+          },
+          {
+            "label": "Apr",
+            "value": 17
+          },
+          {
+            "label": "May",
+            "value": 12
+          },
+          {
+            "label": "Jun",
+            "value": 6
+          },
+          {
+            "label": "Jul",
+            "value": 19
+          },
+          {
+            "label": "Aug",
+            "value": 11
+          },
+          {
+            "label": "Sep",
+            "value": 15
+          },
+          {
+            "label": "Oct",
+            "value": 7
+          },
+          {
+            "label": "Nov",
+            "value": 18
+          },
+          {
+            "label": "Dec",
+            "value": 13
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "project": "chartbridge-gdgoc-2026",
+  "ruleset": "projects/chartbridge-gdgoc-2026/rulesets/0446a0d2-98fa-4b7d-a156-a0dfa995c965",
+  "releaseVerified": true,
+  "policy": "deny-all direct client access"
+}

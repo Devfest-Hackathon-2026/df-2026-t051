@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-06T09:11:31.261134+00:00",
+  "url": "https://chartbridge-gqe6dtznpq-an.a.run.app",
+  "noPublicIamBinding": true,
+  "invokerIamEnabled": true,
+  "secretManagerReference": true,
+  "unauthenticatedStatus": 403,
+  "revisionScaling": {
+    "autoscaling.knative.dev/maxScale": "1",
+    "run.googleapis.com/client-name": "gcloud",
+    "run.googleapis.com/client-version": "592.0.0",
+    "run.googleapis.com/startup-cpu-boost": "true"
+  },
+  "missingApplicationIdentityStatus": 401,
+  "keyAbsentFromTrackedAndBuiltFiles": true,
+  "keyAbsentFromInspectedLogs": true,
+  "keyAbsentFromCloudHtmlAndAssets": true,
+  "cloudAssetsInspected": 2,
+  "logEntriesInspected": 8,
+  "gcsPublicAccessPrevention": "enforced",
+  "gcsUniformBucketLevelAccess": true,
+  "success": true
+}

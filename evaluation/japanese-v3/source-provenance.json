@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "cache": ".tmp/final-audit/maff-jiten2024.pdf",
+      "url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/pdf/jiten_2024.pdf",
+      "sha256": "e93fcb13fd2337e6a5cee865724667e9c233cc65c7b91a8bebe7de394055c05c",
+      "bytes": 2013368
+    },
+    {
+      "cache": ".tmp/final-audit/maff2024-data.xlsx",
+      "url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/xls/oyaku_data.xlsx",
+      "sha256": "a268430c1d379d6ca7908a022345983f64b1761c6dceea2dd79438884f494b02",
+      "bytes": 1265817
+    },
+    {
+      "cache": ".tmp/final-audit/estat-yasai-national.xlsx",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+      "sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+      "bytes": 67072
+    },
+    {
+      "cache": ".tmp/final-audit/estat-000040470534.xls",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0",
+      "sha256": "a18a891c2eb97e7b294b515bea23868f3d34c70abd0760e541a6c5425076fa6b",
+      "bytes": 98304
+    },
+    {
+      "cache": ".tmp/final-audit/estat-000040470594.xls",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+      "sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+      "bytes": 77312
+    },
+    {
+      "cache": ".tmp/final-audit/estat-000040421665.xls",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040421665&fileKind=0",
+      "sha256": "6ccf9ca5e8ffa70cb85f3b8a9e8b73ffefcfc78d375bb9d6a07e6201b8c15b49",
+      "bytes": 45568
+    },
+    {
+      "cache": ".tmp/final-audit/estat-000040421905.xls",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040421905&fileKind=0",
+      "sha256": "8b0f7779f48d99b92215a9a98538e54cb1184bae650da0cc836548a7b3cbdc49",
+      "bytes": 68608
+    },
+    {
+      "cache": ".tmp/final-audit/wakayama-population.jpg",
+      "url": "https://www.pref.wakayama.lg.jp/prefg/020300/kids/graph_d/img/008.jpg",
+      "sha256": "6d73df793137944476a167ddf7736d44ca8be810ef46bdf5a6c13ae5b5540e0e",
+      "bytes": 35562
+    },
+    {
+      "cache": ".tmp/final-audit/wakayama-source.txt",
+      "url": "https://www.pref.wakayama.lg.jp/prefg/020300/kids/graph.html",
+      "sha256": "b99338c7d4a8e716b13aa8c1d20d457ce8eb471ed50f1704a29ea0ba96ea16be",
+      "bytes": 33122
+    }
+  ],
+  "note": "Original downloaded binaries before inference; indexed after results without changing bytes. wakayama-source.txt is UTF-8 decoded page text; legacy estat-yasai-national.xlsx has binary XLS contents despite cached suffix.",
+  "renderer": "pdftoppm version 26.07.0"
+}

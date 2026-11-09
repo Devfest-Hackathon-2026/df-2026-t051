@@ -1,0 +1,69 @@
+{
+  "revision": "chartbridge-00011-suh",
+  "image_digest": "asia-northeast1-docker.pkg.dev/chartbridge-gdgoc-2026/cloud-run-source-deploy/chartbridge@sha256:b86c44a8a99fac8ab077ae1c3cb3cd2e17cbff39c17e1ea5c9c1e43a4cfabc4f",
+  "git_sha": "adb182fca2fd81f1f1eb0fe67870588e4262f52b",
+  "url": "https://chartbridge-gqe6dtznpq-an.a.run.app",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/me",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/drafts",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/analyze",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/drafts",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/images/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/api/drafts/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": 401
+    },
+    {
+      "method": "POST",
+      "path": "/api/drafts/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/approve",
+      "status": 401
+    },
+    {
+      "method": "GET",
+      "path": "/docs",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/openapi.json",
+      "status": 404
+    },
+    {
+      "method": "GET",
+      "path": "/.env",
+      "status": 404
+    }
+  ],
+  "success": true
+}

@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-11-06T08:02:51.782744+00:00",
+  "commit": "d096e9ccc1d4763869f18517e967a1df87283baa",
+  "hashes": {
+    "backend/app/extraction.py": "c2772fa919425c69de18be0a314111905d680bbd2bcca26c1c57f55cd4bb3c05",
+    "backend/app/models.py": "a0b8cea72f86be085143067a1bfc0515c15558cf7cf422b41c2d9bafe7484546",
+    "backend/app/safety.py": "80db6ab7ef090ac936bbdb96adc88ad88fb835595de3b0da554664db46143c70",
+    "backend/app/numeric_labels.py": "b8f6c0003bbc1c897dfe3e8b00c28a05a94a7ae67bdcdc352fdf275f66717683",
+    "backend/app/main.py": "85bc71274d4b0dde72646affed39af2d8ada3a4a6f1b549133f70b32227ddbca",
+    "scripts/eval_core.py": "4dca416ee5c07ec5036cdae11f50023469f8e8d651c277a802cce8974f91fc3a",
+    "scripts/run_large_evaluation.py": "730c587b763e666be51e7efb8399f3e9c54e7a1a8650da881c1f0b3ff3319593"
+  },
+  "development_cycles": 1,
+  "selected_run": "development-cycle1",
+  "selection_reason": "Numeric/schema regression absent; stop before cosmetic tuning of measurement context; no held-out gold/images opened during improvement",
+  "production_deployed": false
+}

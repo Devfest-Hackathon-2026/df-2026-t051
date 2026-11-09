@@ -1,0 +1,29 @@
+{
+  "project": "chartbridge-gdgoc-2026",
+  "checked": "2026-11-06",
+  "readOnly": true,
+  "model": "gemini-3.8-flash",
+  "limits": [
+    {
+      "metric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+      "unit": "1/min/{project}/{model}",
+      "effectiveLimit": "5"
+    },
+    {
+      "metric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+      "unit": "1/d/{project}/{model}",
+      "effectiveLimit": "20"
+    },
+    {
+      "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count",
+      "unit": "1/min/{project}/{model}",
+      "effectiveLimit": "2000000"
+    },
+    {
+      "metric": "generativelanguage.googleapis.com/generate_requests_per_model",
+      "unit": "1/min/{project}/{model}",
+      "effectiveLimit": "1000"
+    }
+  ],
+  "actualTier": "not proven by generic consumerQuotaMetrics; no quota increases made; enforce conservative runner rate and backoff"
+}

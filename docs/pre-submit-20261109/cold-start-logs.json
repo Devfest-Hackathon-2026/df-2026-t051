@@ -1,0 +1,60 @@
+{
+  "window_start_utc": "2026-11-09T01:24:40Z",
+  "entries": [
+    {
+      "timestamp": "2026-11-09T01:25:24.163828Z",
+      "revision": "chartbridge-00011-suh",
+      "message": "Default STARTUP TCP probe succeeded after 1 attempt for container \"chartbridge-1\" on port 8080.",
+      "http_status": null,
+      "request_path": "",
+      "server_latency": null,
+      "instance_id": "00e8a408bd461dc6"
+    },
+    {
+      "timestamp": "2026-11-09T01:25:24.162158Z",
+      "revision": "chartbridge-00011-suh",
+      "message": "INFO:     Application startup complete.",
+      "http_status": null,
+      "request_path": "",
+      "server_latency": null,
+      "instance_id": "00e8a408bd461dc6"
+    },
+    {
+      "timestamp": "2026-11-09T01:25:24.155987Z",
+      "revision": "chartbridge-00011-suh",
+      "message": "INFO:     Waiting for application startup.",
+      "http_status": null,
+      "request_path": "",
+      "server_latency": null,
+      "instance_id": "00e8a408bd461dc6"
+    },
+    {
+      "timestamp": "2026-11-09T01:25:24.155888Z",
+      "revision": "chartbridge-00011-suh",
+      "message": "INFO:     Started server process [2]",
+      "http_status": null,
+      "request_path": "",
+      "server_latency": null,
+      "instance_id": "00e8a408bd461dc6"
+    },
+    {
+      "timestamp": "2026-11-09T01:25:15.882799Z",
+      "revision": "chartbridge-00011-suh",
+      "message": "Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.",
+      "http_status": null,
+      "request_path": "",
+      "server_latency": null,
+      "instance_id": "00e8a408bd461dc6"
+    },
+    {
+      "timestamp": "2026-11-09T01:25:15.844202Z",
+      "revision": "chartbridge-00011-suh",
+      "message": null,
+      "http_status": 200,
+      "request_path": "https://chartbridge-gqe6dtznpq-an.a.run.app/",
+      "server_latency": "8.123016768s",
+      "instance_id": "00e8a408bd461dc6"
+    }
+  ],
+  "instance_start_observed": true
+}

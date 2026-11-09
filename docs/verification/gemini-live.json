@@ -1,0 +1,88 @@
+[
+  {
+    "timestamp": "2026-11-05T02:10:07.187938+00:00",
+    "model": "gemini-3.8-flash",
+    "source": "real-gemini-api",
+    "fixture": "sample.png",
+    "sha256": "2a193b5df8717140ccdc6e95babfcf4a3647b187d38a074234f3a3b6c43df8c7",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12.0,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": 18.0,
+          "evidence": "18"
+        }
+      ],
+      "warnings": []
+    },
+    "success": true,
+    "schema_valid": true
+  },
+  {
+    "timestamp": "2026-11-05T02:10:11.449531+00:00",
+    "model": "gemini-3.8-flash",
+    "source": "real-gemini-api",
+    "fixture": "sample.jpg",
+    "sha256": "d7c3f77eeedb7d64d882cc7c1aea6502af8f59e8dee60c32277d770f57ab6997",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12.0,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": 18.0,
+          "evidence": "18"
+        }
+      ],
+      "warnings": []
+    },
+    "success": true,
+    "schema_valid": true
+  },
+  {
+    "timestamp": "2026-11-05T02:10:16.543499+00:00",
+    "model": "gemini-3.8-flash",
+    "source": "real-gemini-api",
+    "fixture": "uncertain.png",
+    "sha256": "0f3aa10b6d8da0eae4aa9c6bbc68a0abb1c62fd346dc87b946ba5a8ffd79bc0d",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12.0,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "warnings": [
+        "Bの数値ラベルが「??」となっており数値を特定できません。"
+      ]
+    },
+    "success": true,
+    "schema_valid": true
+  }
+]

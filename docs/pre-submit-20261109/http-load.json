@@ -1,0 +1,295 @@
+{
+  "max_concurrency": 3,
+  "request_limit": 30,
+  "actual_requests": 30,
+  "rows": [
+    {
+      "kind": "page",
+      "index": 0,
+      "started_at": "2026-11-09T01:32:32.225246+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 147.47
+    },
+    {
+      "kind": "page",
+      "index": 1,
+      "started_at": "2026-11-09T01:32:32.373244+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 41.33
+    },
+    {
+      "kind": "page",
+      "index": 2,
+      "started_at": "2026-11-09T01:32:32.400613+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 37.43
+    },
+    {
+      "kind": "page",
+      "index": 3,
+      "started_at": "2026-11-09T01:32:32.450628+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 38.41
+    },
+    {
+      "kind": "page",
+      "index": 4,
+      "started_at": "2026-11-09T01:32:32.479572+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 39.5
+    },
+    {
+      "kind": "page",
+      "index": 5,
+      "started_at": "2026-11-09T01:32:32.527435+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 40.77
+    },
+    {
+      "kind": "material",
+      "index": 0,
+      "started_at": "2026-11-09T01:32:32.571176+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 257.48
+    },
+    {
+      "kind": "material",
+      "index": 1,
+      "started_at": "2026-11-09T01:32:32.822924+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 34.16
+    },
+    {
+      "kind": "material",
+      "index": 2,
+      "started_at": "2026-11-09T01:32:32.854598+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 34.42
+    },
+    {
+      "kind": "material",
+      "index": 3,
+      "started_at": "2026-11-09T01:32:32.886289+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 33.14
+    },
+    {
+      "kind": "material",
+      "index": 4,
+      "started_at": "2026-11-09T01:32:32.918123+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 37.01
+    },
+    {
+      "kind": "material",
+      "index": 5,
+      "started_at": "2026-11-09T01:32:32.966107+00:00",
+      "series": "sequential",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 37.46
+    },
+    {
+      "kind": "page",
+      "index": 6,
+      "started_at": "2026-11-09T01:32:32.998610+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 47.79
+    },
+    {
+      "kind": "page",
+      "index": 8,
+      "started_at": "2026-11-09T01:32:32.998610+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 90.02
+    },
+    {
+      "kind": "page",
+      "index": 7,
+      "started_at": "2026-11-09T01:32:32.998610+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 94.7
+    },
+    {
+      "kind": "page",
+      "index": 10,
+      "started_at": "2026-11-09T01:32:33.095084+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 39.57
+    },
+    {
+      "kind": "page",
+      "index": 11,
+      "started_at": "2026-11-09T01:32:33.100086+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 38.35
+    },
+    {
+      "kind": "page",
+      "index": 9,
+      "started_at": "2026-11-09T01:32:33.046097+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 102.47
+    },
+    {
+      "kind": "page",
+      "index": 12,
+      "started_at": "2026-11-09T01:32:33.133074+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 42.74
+    },
+    {
+      "kind": "page",
+      "index": 13,
+      "started_at": "2026-11-09T01:32:33.133074+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 39.42
+    },
+    {
+      "kind": "page",
+      "index": 14,
+      "started_at": "2026-11-09T01:32:33.149075+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 32.79
+    },
+    {
+      "kind": "material",
+      "index": 7,
+      "started_at": "2026-11-09T01:32:33.164793+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 41.91
+    },
+    {
+      "kind": "material",
+      "index": 6,
+      "started_at": "2026-11-09T01:32:33.164793+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 44.24
+    },
+    {
+      "kind": "material",
+      "index": 8,
+      "started_at": "2026-11-09T01:32:33.180565+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 37.32
+    },
+    {
+      "kind": "material",
+      "index": 9,
+      "started_at": "2026-11-09T01:32:33.212280+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 42.36
+    },
+    {
+      "kind": "material",
+      "index": 11,
+      "started_at": "2026-11-09T01:32:33.212280+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 36.7
+    },
+    {
+      "kind": "material",
+      "index": 10,
+      "started_at": "2026-11-09T01:32:33.212280+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 43.36
+    },
+    {
+      "kind": "material",
+      "index": 12,
+      "started_at": "2026-11-09T01:32:33.260089+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 35.24
+    },
+    {
+      "kind": "material",
+      "index": 13,
+      "started_at": "2026-11-09T01:32:33.260089+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 41.77
+    },
+    {
+      "kind": "material",
+      "index": 14,
+      "started_at": "2026-11-09T01:32:33.260089+00:00",
+      "series": "concurrent_3",
+      "status": 200,
+      "success": true,
+      "elapsed_ms": 43.8
+    }
+  ],
+  "page": {
+    "samples": 15,
+    "timed_samples": 15,
+    "mean_ms": 58.18,
+    "p95_ms": 147.47,
+    "max_ms": 147.47,
+    "failed": 0,
+    "failure_rate": 0.0
+  },
+  "material": {
+    "samples": 15,
+    "timed_samples": 15,
+    "mean_ms": 53.36,
+    "p95_ms": 257.48,
+    "max_ms": 257.48,
+    "failed": 0,
+    "failure_rate": 0.0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "git_sha": "adb182fca2fd81f1f1eb0fe67870588e4262f52b",
+  "candidate_revision": "chartbridge-00010-lut",
+  "image_digest": "asia-northeast1-docker.pkg.dev/chartbridge-gdgoc-2026/cloud-run-source-deploy/chartbridge@sha256:b86c44a8a99fac8ab077ae1c3cb3cd2e17cbff39c17e1ea5c9c1e43a4cfabc4f",
+  "build_id": "d90c1796-db71-49d8-a0a0-afed1771e7fa",
+  "build_status": "SUCCESS",
+  "candidate_url": "https://review-adb182fc---chartbridge-gqe6dtznpq-an.a.run.app",
+  "traffic": [
+    {
+      "percent": 100,
+      "revisionName": "chartbridge-00009-z6n"
+    },
+    {
+      "revisionName": "chartbridge-00010-lut",
+      "tag": "review-adb182fc",
+      "url": "https://review-adb182fc---chartbridge-gqe6dtznpq-an.a.run.app"
+    }
+  ],
+  "runtime_service_account": "chartbridge-runtime@chartbridge-gdgoc-2026.iam.gserviceaccount.com",
+  "app_env": "production",
+  "auth_mode": "firebase",
+  "public_access_flag": "false",
+  "secret_references": {
+    "GEMINI_API_KEY": {
+      "secretKeyRef": {
+        "key": "1",
+        "name": "chartbridge-gemini"
+      }
+    }
+  },
+  "private_iam": true,
+  "runtime_source_comparison": [
+    {
+      "path": "backend/app/extraction.py",
+      "old_sha256": "4f0a45463bbb162b9b5dd00cf28b11e2680e38fddcd17f74d555a23049807866",
+      "candidate_sha256": "afb377917d208d7a1b2e5234f75eadd85b347041649be6e87413ba2e6f9cba56",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    },
+    {
+      "path": "backend/app/safety.py",
+      "old_sha256": "2c87f4d65c4c70c0abfb490493a5f04a272dddb5840242dd046589ef3592a657",
+      "candidate_sha256": "80db6ab7ef090ac936bbdb96adc88ad88fb835595de3b0da554664db46143c70",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    },
+    {
+      "path": "backend/app/numeric_labels.py",
+      "old_sha256": null,
+      "candidate_sha256": "b8f6c0003bbc1c897dfe3e8b00c28a05a94a7ae67bdcdc352fdf275f66717683",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    },
+    {
+      "path": "backend/app/auth.py",
+      "old_sha256": "865576df1ab7e02babc8fc7eb37e24eead8992e3cabae9b5d5e6de49f00cad65",
+      "candidate_sha256": "865576df1ab7e02babc8fc7eb37e24eead8992e3cabae9b5d5e6de49f00cad65",
+      "changed": false,
+      "text_changed_ignoring_crlf": false
+    },
+    {
+      "path": "backend/app/main.py",
+      "old_sha256": "c258be2613b643c2592184294a83a28d1d2696f9d9596e76e5e0dfd55fe22e87",
+      "candidate_sha256": "b7b603fd293bb0cbfd19bb0fd63432e4cd678f80c494b0573ac3fb1811fa74bb",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    },
+    {
+      "path": "backend/app/materials.py",
+      "old_sha256": "2c3ec3ac8db5a6321458fa19837b9f82292d3445411bbbcdc8ba550f8869c04d",
+      "candidate_sha256": "c6cdb3cfe5a9e1dacb1a922bac5eb82c6cab8b5d8edbf09c1ead5c3ebbc74572",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    },
+    {
+      "path": "backend/app/images.py",
+      "old_sha256": "5784fdbcedd9001393338942ce049ed79acd3b077b93761efbe708f2d2e5dd0c",
+      "candidate_sha256": "5784fdbcedd9001393338942ce049ed79acd3b077b93761efbe708f2d2e5dd0c",
+      "changed": false,
+      "text_changed_ignoring_crlf": false
+    },
+    {
+      "path": "backend/app/limits.py",
+      "old_sha256": null,
+      "candidate_sha256": "55a2132ab8a057e3790a2fb04457da1743f39d229a0680072e73ceb953e2dd21",
+      "changed": true,
+      "text_changed_ignoring_crlf": true
+    }
+  ]
+}

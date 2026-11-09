@@ -1,0 +1,53 @@
+{
+  "expected_cells": 73,
+  "expected_known": 73,
+  "expected_null": 0,
+  "numeric_correct": 73,
+  "category_correct": 73,
+  "returned_null": 0,
+  "appropriate_null": 0,
+  "unnecessary_null": 0,
+  "wrong_confirmed": 0,
+  "missing_cells": 0,
+  "extra_cells": 0,
+  "unit_mismatch_confirmed_cells": 10,
+  "images": 25,
+  "schema_valid": 25,
+  "complete_match": 21,
+  "title_correct": 25,
+  "unit_correct": 21,
+  "scope_correct": 25,
+  "mean_seconds": 5.496,
+  "median_seconds": 5.114,
+  "p95_seconds": 8.706,
+  "null_recall": null,
+  "null_precision": null,
+  "numeric_accuracy": 1.0,
+  "abstention_rate": 0.0,
+  "failure_observations": {
+    "A": 0,
+    "B": 4,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0
+  },
+  "model_responses": 25,
+  "json_pydantic_valid_responses": 25,
+  "json_pydantic_success_rate": 1.0,
+  "input_validation_rejections": 0,
+  "generation_request_latency": {
+    "cases_with_generation": 25,
+    "mean_seconds": 3.97,
+    "median_seconds": 3.647,
+    "p95_seconds": 5.408,
+    "includes_failed_attempts": true,
+    "excludes_queue_count_tokens_and_backoff": true
+  },
+  "usage_ledger_at_end": {
+    "generation_attempts": 181,
+    "count_attempts": 182,
+    "charged_or_reserved_usd": "0.40585875"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "archive": "output/submission/chartbridge-review-final-20261106.zip",
+  "sha256": "edd984489cc007da48dc2a212dfd3742211e70c164fc3b6973b0f7382c6d923f",
+  "files": 311,
+  "bytes": 5944416,
+  "gitHistoryIncluded": false,
+  "secretPatternFindings": 0,
+  "geminiKeyMatch": false,
+  "publicRepositoryPush": false
+}

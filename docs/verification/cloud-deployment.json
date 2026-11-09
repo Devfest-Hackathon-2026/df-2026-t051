@@ -1,0 +1,11 @@
+{
+  "project": "chartbridge-gdgoc-2026",
+  "region": "asia-northeast1",
+  "service": "chartbridge",
+  "url": "https://chartbridge-gqe6dtznpq-an.a.run.app",
+  "readyRevision": "chartbridge-00009-z6n",
+  "secretVersion": "1",
+  "runtimeServiceAccount": "chartbridge-runtime@chartbridge-gdgoc-2026.iam.gserviceaccount.com",
+  "buildServiceAccount": "chartbridge-builder@chartbridge-gdgoc-2026.iam.gserviceaccount.com",
+  "public": false
+}

@@ -1,0 +1,8 @@
+{
+  "project": "chartbridge-gdgoc-2026",
+  "emailPasswordEnabled": true,
+  "webAppRegistered": true,
+  "ruleset": "projects/chartbridge-gdgoc-2026/rulesets/4fd7c894-6d4c-455f-94ca-d514cc3d09ff",
+  "release": "projects/chartbridge-gdgoc-2026/releases/cloud.firestore",
+  "rules": "deny all direct client access"
+}

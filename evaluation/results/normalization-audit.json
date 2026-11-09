@@ -1,0 +1,95 @@
+{
+  "allFixedInputsUnchanged": true,
+  "cases": [
+    {
+      "id": "E01",
+      "inputSha256": "26aaff6d50842df429132ab750dd4137ef0e9bc0951aa1eaafae3a006f561904",
+      "unchanged": true
+    },
+    {
+      "id": "E02",
+      "inputSha256": "3470ce342098c8233c865ff62a0fdb94cb57a326e13d79ab3e822866fb5f819e",
+      "unchanged": true
+    },
+    {
+      "id": "E03",
+      "inputSha256": "071492061c250dd5aeb4ea76c02b6b0fbf05c78a0b131844c3e793d2d526cf6e",
+      "unchanged": true
+    },
+    {
+      "id": "E04",
+      "inputSha256": "73d573e36953b92f26ad7bc4c4cc62336f89d296679a294f0cd86a30884210de",
+      "unchanged": true
+    },
+    {
+      "id": "E05",
+      "inputSha256": "bc85df617fee144d7bf59ed12885826c83fb941a23576f0c5134ef03a151b9c6",
+      "unchanged": true
+    },
+    {
+      "id": "E06",
+      "inputSha256": "229550befb2b4d27d2ebb16fb670e87ff5935f92a20031e20564eb5da686d408",
+      "unchanged": true
+    },
+    {
+      "id": "S07",
+      "inputSha256": "68eadfcc6b3c08a75d4d117bae22082b76b0555398ab5b5e60adc06c3fe3c8cb",
+      "unchanged": true
+    },
+    {
+      "id": "S08",
+      "inputSha256": "f06d708f79f7cf5fbc3798c84b19e21c23c8ce654b327df6996d1929dff35930",
+      "unchanged": true
+    },
+    {
+      "id": "S09",
+      "inputSha256": "7d6fb879d826e6547536bf753352997c5dac2e376c69aa3ab908b1c36985ee1b",
+      "unchanged": true
+    },
+    {
+      "id": "S10",
+      "inputSha256": "a1c5259914ec4ca30107ba384ebed1f9a760affdf59547166394f6f8f8f1458e",
+      "unchanged": true
+    },
+    {
+      "id": "S11",
+      "inputSha256": "f431799daafdc0dd577b2824676339800fad7960f071fc2a315e97b3b7d610ee",
+      "unchanged": true
+    },
+    {
+      "id": "S12",
+      "inputSha256": "2f91d3b5ffdc7cbd9097af9bc233ef0a90bd3ea7c73e76b14c983f18aad2042e",
+      "unchanged": true
+    },
+    {
+      "id": "S13",
+      "inputSha256": "206ececf8f34b74ba8044689928d9dcf54f0d8450d52b0d3b17c074a6efefbde",
+      "unchanged": true
+    },
+    {
+      "id": "S14",
+      "inputSha256": "668a9e24e061f84fc1e4658df5408dc95fa5317a0d0df18636befdd11adb6efa",
+      "unchanged": true
+    },
+    {
+      "id": "H15",
+      "inputSha256": "f52a73f485de019f38c9e0a0f796c1a983bfc499fa24dcfe591ec92f919aa9cd",
+      "unchanged": true
+    },
+    {
+      "id": "H16",
+      "inputSha256": "bab7ab3206dbd63164b393363bc51213f1fb027cd4e2444b941a049889ee3edb",
+      "unchanged": true
+    },
+    {
+      "id": "H17",
+      "inputSha256": "87d4921ce9ee80794ed4b67e8b7b285517411ffafcf5a96fd6c73063a3caf6ab",
+      "unchanged": true
+    },
+    {
+      "id": "H18",
+      "inputSha256": "2bbb58b9d978c30338e749c41068306c2953f4e4ad012193f66d0fc364c905c0",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+
+Running 1 test using 1 worker
+
+  ok 1 live-tests\firebase.spec.ts:9:1 › real teacher login → source reopen → immutable approval → student comparison (35.9s)
+
+  1 passed (36.4s)
+(node:3380) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Deleted 3 disposable Firebase test accounts.

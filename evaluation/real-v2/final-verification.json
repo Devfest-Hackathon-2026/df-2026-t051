@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-06",
+  "pythonPassed": 134,
+  "mathPassed": 4,
+  "playwrightPassed": 16,
+  "deployedRulesPassed": 45,
+  "totalPassed": 199,
+  "totalFailed": 0,
+  "typescript": "passed",
+  "productionBuild": "passed",
+  "frozenPipelineUnchanged": true,
+  "secretPatternFindings": 0,
+  "actualGeminiKeyMatch": false,
+  "originalImagesAndCsvTracked": false,
+  "currentCandidateCloudE2E": "not performed; candidate not deployed",
+  "historicalFirstRunsPreserved": true
+}

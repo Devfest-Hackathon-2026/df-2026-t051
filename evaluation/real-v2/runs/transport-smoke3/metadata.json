@@ -1,0 +1,24 @@
+{
+  "started_at": "2026-11-06T07:37:13.187340+00:00",
+  "split": "development",
+  "mode": "baseline",
+  "model": "gemini-3.8-flash",
+  "code": {
+    "backend/app/extraction.py": "4f0a45463bbb162b9b5dd00cf28b11e2680e38fddcd17f74d555a23049807866",
+    "backend/app/models.py": "a0b8cea72f86be085143067a1bfc0515c15558cf7cf422b41c2d9bafe7484546",
+    "backend/app/safety.py": "2c87f4d65c4c70c0abfb490493a5f04a272dddb5840242dd046589ef3592a657",
+    "scripts/eval_core.py": "6f3782d0f2ff57cf8f8730f82f3ef5b9b383628353d37dff52e06217b03de8cd",
+    "scripts/run_large_evaluation.py": "e9d7f27d7ee80d70c6b7f8ea28f4cc28ef45d2f448721ba11c46dfd967a9a47c"
+  },
+  "dataset_sha256": "69da8ddea855703ee0a5f4cb26f80d5e7cf9700967576e06e5e14b8f11bdc1bf",
+  "commit": "e66bca1b72c1a89fae29eaca08916ab59cd9f088",
+  "sdk_retries": 1,
+  "maximum_concurrent_cases": 2,
+  "max_retries_per_request": 2,
+  "request_start_interval_seconds": 5.1,
+  "reserved_for_final_usd": "0.921600",
+  "completed_at": "2026-11-06T07:37:25.241328+00:00",
+  "completed_cases": 1,
+  "planned_cases": 1,
+  "stopped": false
+}

@@ -1,0 +1,244 @@
+{
+  "version": "real-v1",
+  "retrieved_at": "2026-11-06",
+  "publisher": "農林水産省",
+  "source_type": "published educational charts, not ChartBridge-generated",
+  "license": "PDL1.0 default content policy; third-party rights exceptions remain applicable. Original images are not redistributed in this repository.",
+  "terms_url": "https://www.maff.go.jp/j/use/link.html",
+  "cases": [
+    {
+      "id": "R01",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-12.png",
+      "cache": ".tmp/real-materials/maff-12.png",
+      "sha256": "78115e53d338f61e7a762934d8917ff7ee58803bd4f0e2f8c110a95f94263945",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": false,
+      "expected": {
+        "title": "こめの生産量上位5都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "新潟",
+            "value": 59
+          },
+          {
+            "label": "北海道",
+            "value": 54
+          },
+          {
+            "label": "秋田",
+            "value": 46
+          },
+          {
+            "label": "山形",
+            "value": 36
+          },
+          {
+            "label": "宮城",
+            "value": 34
+          }
+        ]
+      }
+    },
+    {
+      "id": "R02",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-39.png",
+      "cache": ".tmp/real-materials/maff-39.png",
+      "sha256": "70388617e0b2fa284d01a4355f2305861016234db18af71dc2e0b432fd56566a",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": true,
+      "expected": {
+        "title": "うめの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "和歌山",
+            "value": 64
+          },
+          {
+            "label": "群馬",
+            "value": 4
+          },
+          {
+            "label": "山梨",
+            "value": 2
+          },
+          {
+            "label": "三重",
+            "value": 2
+          },
+          {
+            "label": "福井",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "R03",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-40.png",
+      "cache": ".tmp/real-materials/maff-40.png",
+      "sha256": "e9e6afb26ba8b7a3f25fedf85fa7ae9ae0b63d5a15d6850b8df6aefab3de5e3b",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": true,
+      "expected": {
+        "title": "ミニトマトの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "熊本",
+            "value": 41
+          },
+          {
+            "label": "愛知",
+            "value": 16
+          },
+          {
+            "label": "北海道",
+            "value": 15
+          },
+          {
+            "label": "宮崎",
+            "value": 9
+          },
+          {
+            "label": "茨城",
+            "value": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "R04",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-15.png",
+      "cache": ".tmp/real-materials/maff-15.png",
+      "sha256": "6e03ca760d03ba56c4203c93d09aeb5882978ba6e2f012023cbeebce6fda6ded",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": false,
+      "expected": {
+        "title": "レタスの生産量上位5都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "長野",
+            "value": 18
+          },
+          {
+            "label": "茨城",
+            "value": 9
+          },
+          {
+            "label": "群馬",
+            "value": 6
+          },
+          {
+            "label": "長崎",
+            "value": 4
+          },
+          {
+            "label": "静岡",
+            "value": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "R05",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-41.png",
+      "cache": ".tmp/real-materials/maff-41.png",
+      "sha256": "f55a7390031d419f5163768f37dd6dc1d8cd2bdeb10333f2663053d8b73629dd",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": true,
+      "expected": {
+        "title": "ブロッコリーの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": 28
+          },
+          {
+            "label": "埼玉",
+            "value": 16
+          },
+          {
+            "label": "愛知",
+            "value": 15
+          },
+          {
+            "label": "香川",
+            "value": 13
+          },
+          {
+            "label": "徳島",
+            "value": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "R06",
+      "source_page": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/toukei.html",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-16.png",
+      "cache": ".tmp/real-materials/maff-16.png",
+      "sha256": "f59f525f4e703a20cc77fe7c0d348c4885a70d6304afc8c5e4d22acfb20e4630",
+      "rights_url": "https://www.maff.go.jp/j/use/link.html",
+      "attribution": "出典：農林水産省「統計データを使いこなして自由研究を攻略しよう！」2024掲載版。原図・加工なし。",
+      "mvp_structure": true,
+      "mixed_japanese_number_notation": false,
+      "expected": {
+        "title": "たまごの生産量上位5都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "茨城",
+            "value": 23
+          },
+          {
+            "label": "鹿児島",
+            "value": 18
+          },
+          {
+            "label": "広島",
+            "value": 14
+          },
+          {
+            "label": "岡山",
+            "value": 13
+          },
+          {
+            "label": "千葉",
+            "value": 13
+          }
+        ]
+      }
+    }
+  ],
+  "screened_out": [
+    {
+      "source": "https://www.stat.go.jp/data/nihon/pdf/26nihon.pdf",
+      "figure": "図12 海外経済協力",
+      "reason": "単系列縦棒だが全数値ラベルがなく、対応条件外。精度分母に含めない。"
+    },
+    {
+      "source": "https://www.pref.niigata.lg.jp/uploaded/attachment/441964.pdf",
+      "figure": "品目別ランキング冒頭図",
+      "reason": "全棒ではなく一部のみ数値ラベル。対応条件外。精度分母に含めない。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+- main:
+  - text: 教員確認済みのデータ
+  - heading "Students by class" [level=1]
+  - paragraph: 単位：people
+  - paragraph: 未確定の数値は計算に使いません。表示と比較は同じ承認済みデータを使っています。
+  - region "データを読む":
+    - heading "データを読む" [level=2]
+    - table "Students by classの承認済みデータ":
+      - caption: Students by classの承認済みデータ
+      - rowgroup:
+        - row "項目 数値（people）":
+          - columnheader "項目"
+          - columnheader "数値（people）"
+      - rowgroup:
+        - row "A 13":
+          - rowheader "A"
+          - cell "13"
+        - row "B 未確定":
+          - rowheader "B"
+          - cell "未確定"
+  - region "最大値・最小値を確認":
+    - heading "最大値・最小値を確認" [level=2]
+    - paragraph: 確定している数値は1件だけです。全項目の最大値・最小値はまだ判断できません。
+    - paragraph: 確認できた値：A、13 people
+  - region "2つの項目を比較":
+    - heading "2つの項目を比較" [level=2]
+    - text: 比較する項目
+    - combobox "比較する項目":
+      - option "A" [selected]
+      - option "B（未確定）"
+    - text: 差し引く項目
+    - combobox "差し引く項目":
+      - option "A"
+      - option "B（未確定）" [selected]
+    - button "数値を比較する"
+    - status: 未確定の数値を含むため比較できません。
+  - paragraph:
+    - text: 承認日時：
+    - time: 2026/11/6 18:19:40 JST
+    - text: 。この版は変更されません。

@@ -1,0 +1,156 @@
+import {test,expect} from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import fs from 'node:fs';
+import artifactPath from 'node:path';
+const evidence=process.env.CHARTBRIDGE_EVIDENCE_DIR??'../docs/final-audit/live';
+const liveUrl=process.env.CHARTBRIDGE_LIVE_URL??'http://127.0.0.1:8086';
+fs.mkdirSync(evidence,{recursive:true});
+
+test('real teacher login → source reopen → immutable approval → student comparison',async({page,request,browser})=>{
+  test.setTimeout(180000);
+  test.skip(!process.env.CHARTBRIDGE_TEST_USERS,'Run through scripts/verify_firebase_flow.py for disposable real credentials.');
+  const users=JSON.parse(process.env.CHARTBRIDGE_TEST_USERS!);
+  const config=await (await request.get('/api/config')).json();
+  expect(config.authMode).toBe('firebase');
+  expect((await request.get('/api/me')).status()).toBe(401);
+  expect((await request.get('/api/me',{headers:{Authorization:'Bearer invalid'}})).status()).toBe(401);
+  const teacherHeader={Authorization:`Bearer ${users.teacher.token}`};
+  const otherHeader={Authorization:`Bearer ${users.other_teacher.token}`};
+  const studentHeader={Authorization:`Bearer ${users.student.token}`};
+  expect((await request.get('/api/me',{headers:studentHeader})).status()).toBe(403);
+  expect((await request.post('/api/analyze',{headers:studentHeader,multipart:{file:{name:'bad.png',mimeType:'image/png',buffer:Buffer.from('bad')}}})).status()).toBe(403);
+  expect((await request.get('/api/me',{headers:teacherHeader})).status()).toBe(200);
+  await page.goto('/');
+  await page.getByLabel('メールアドレス').fill(users.teacher.email);
+  await page.getByLabel('パスワード',{exact:true}).fill(users.teacher.password);
+  await page.getByRole('button',{name:'ログイン',exact:true}).click();
+  await expect(page.getByText(`ログイン済み：${users.teacher.email}`,{exact:false})).toBeVisible();
+  await page.locator('#chart-file').setInputFiles('../backend/tests/fixtures/sample.png');
+  const analyzed=page.waitForResponse(r=>r.url().endsWith('/api/analyze'),{timeout:65000});
+  await page.getByRole('button',{name:'グラフを読み取る'}).click();
+  const response=await analyzed;expect(response.status()).toBe(200);
+  const extraction=await response.json();
+  expect(extraction.source).toBe('gemini');expect(extraction.image_id).toMatch(/^[a-f0-9]{32}$/);
+  expect(extraction.extraction.categories.map((item:{value:number})=>item.value)).toEqual([12,18]);
+  // The teacher explicitly holds B as unknown; do not rely on an out-of-scope
+  // missing-label image being accepted nondeterministically by the model.
+  await page.getByRole('spinbutton',{name:'項目2の数値'}).fill('');
+  const imagePath=`/api/images/${extraction.image_id}`;
+  expect((await request.get(imagePath,{headers:otherHeader})).status()).toBe(404);
+  expect((await request.get(imagePath,{headers:studentHeader})).status()).toBe(403);
+  const source=await request.get(imagePath,{headers:teacherHeader});expect(source.status()).toBe(200);
+  expect((await request.get(`https://storage.googleapis.com/chartbridge-gdgoc-2026-sources/sources/${extraction.image_id}.png`)).status()).toBe(403);
+  expect(source.headers()['content-type']).toContain('image/png');
+  const save=page.waitForResponse(r=>r.url().endsWith('/api/drafts')&&r.request().method()==='POST');
+  await page.getByRole('button',{name:'未承認として保存'}).click();
+  const savedResponse=await save;expect(savedResponse.status()).toBe(201);const saved=await savedResponse.json();
+  const path=`/api/drafts/${saved.id}`;
+  const ownList=await (await request.get('/api/drafts',{headers:teacherHeader})).json();
+  expect(ownList.some((item:{id:string})=>item.id===saved.id)).toBe(true);
+  expect(await (await request.get('/api/drafts',{headers:otherHeader})).json()).toEqual([]);
+  expect((await request.get(path,{headers:otherHeader})).status()).toBe(404);
+  expect((await request.put(path,{headers:otherHeader,data:{expected_version:1,data:saved.data}})).status()).toBe(404);
+  expect((await request.post(path+'/approve',{headers:otherHeader,data:{expected_version:1,confirmed:true}})).status()).toBe(404);
+  expect((await request.get('/api/materials/'+saved.id)).status()).toBe(404);
+  const rulesResults=[];
+  for(const [role,token] of [['teacher',users.teacher.token],['student',users.student.token]]){
+    const direct=await request.get(`https://firestore.googleapis.com/v1/projects/chartbridge-gdgoc-2026/databases/(default)/documents/chartbridge_drafts/${saved.id}`,{headers:{Authorization:`Bearer ${token}`}});
+    expect(direct.status()).toBe(403);rulesResults.push({role,status:direct.status()});
+  }
+  // Reload the browser, then recover both source image and saved data.
+  await page.reload();
+  await page.getByRole('button',{name:'Students by class — 未承認',exact:true}).click();
+  await expect(page.getByRole('img',{name:'照合用の元グラフ'})).toBeVisible();
+  await expect(page.getByRole('spinbutton',{name:'項目1の数値'})).toHaveValue('12');
+  await expect(page.getByRole('spinbutton',{name:'項目2の数値'})).toHaveValue('');
+  // Edit after recovering the source. Keep B unknown to exercise null safety.
+  await page.getByRole('spinbutton',{name:'項目1の数値'}).fill('13');
+  const corrected=page.waitForResponse(r=>r.url().endsWith(path)&&r.request().method()==='PUT');
+  await page.getByRole('button',{name:'修正を保存'}).click();
+  expect((await corrected).status()).toBe(200);
+  const correction=(await (await request.get(path,{headers:teacherHeader})).json());
+  expect(correction.data.categories[0].value).toBe(13);
+  await page.getByRole('checkbox',{name:'元画像と全項目を照合し、未確定の数値・単位を確認しました。'}).check();
+  const approving=page.waitForResponse(r=>r.url().endsWith(path+'/approve'));
+  await page.getByRole('button',{name:'確認して承認版を作成'}).click();
+  const approval=await approving;expect(approval.status()).toBe(200);const snapshot=await approval.json();
+  await expect(page.getByText('教材：承認済み（配布版固定）',{exact:true})).toBeVisible();
+  await expect(page.getByText('AI抽出・未検証',{exact:true})).toBeVisible();
+  await expect(page.locator('[aria-current="step"]')).toContainText('共有');
+  await expect(page.getByLabel('学生向け共有URL')).toHaveValue(`${config.serviceBaseUrl}/learn/${snapshot.id}`);
+  await expect(page.getByRole('link',{name:'学生向け教材を開く'})).toHaveAttribute('href',`/learn/${snapshot.id}`);
+  expect((await request.put(path,{headers:teacherHeader,data:{expected_version:3,data:{...saved.data,title:'overwrite'}}})).status()).toBe(409);
+  const publicResponse=await request.get('/api/materials/'+snapshot.id);expect(publicResponse.status()).toBe(200);
+  expect(await publicResponse.json()).toEqual(snapshot);
+  expect((await request.put('/api/materials/'+snapshot.id,{data:snapshot})).status()).toBe(404);
+  const teacherViolations=(await new AxeBuilder({page}).analyze()).violations;expect(teacherViolations).toEqual([]);
+  fs.writeFileSync(artifactPath.join(evidence,'day5-teacher-live-aria.yml'),await page.locator('main').ariaSnapshot());
+  for(const width of [320,390,1280]){
+    await page.setViewportSize({width,height:850});
+    fs.writeFileSync(artifactPath.join(evidence,'day5-layout-diagnostics.json'),JSON.stringify(await page.evaluate(()=>({width:innerWidth,scrollX,scrollWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(element=>element.getBoundingClientRect().right+scrollX>innerWidth+1).map(element=>({tag:element.tagName,class:element.className,right:element.getBoundingClientRect().right+scrollX,width:element.getBoundingClientRect().width}))})),null,2));
+    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+    expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+    await page.screenshot({path:artifactPath.join(evidence,`day5-teacher-${width}.png`),fullPage:true});
+  }
+  const studentContext=await browser.newContext();const student=await studentContext.newPage();
+  let analyzeCalls=0;student.on('request',r=>{if(r.url().includes('/api/analyze'))analyzeCalls++;});
+  await student.goto(`${liveUrl}/learn/${snapshot.id}`);
+  await expect(student.getByRole('heading',{name:'Students by class',exact:true})).toBeVisible();
+  await expect(student.getByRole('cell',{name:'未確定',exact:true})).toBeVisible();
+  await expect(student.getByText('確定している数値は1件だけです。全項目の最大値・最小値はまだ判断できません。',{exact:true})).toBeVisible();
+  await student.getByRole('button',{name:'数値を比較する'}).focus();await student.keyboard.press('Enter');
+  await expect(student.getByRole('status')).toContainText('未確定の数値を含むため比較できません');
+  const studentViolations=(await new AxeBuilder({page:student}).analyze()).violations;expect(studentViolations).toEqual([]);
+  fs.writeFileSync(artifactPath.join(evidence,'day5-student-live-aria.yml'),await student.locator('main').ariaSnapshot());
+  expect(analyzeCalls).toBe(0);
+  // A second confirmed chart exercises a successful two-value comparison.
+  const normal=await request.post('/api/analyze',{headers:teacherHeader,multipart:{file:{name:'sample.jpg',mimeType:'image/jpeg',buffer:fs.readFileSync('../backend/tests/fixtures/sample.jpg')}}});
+  expect(normal.status()).toBe(200);const normalData=await normal.json();
+  const another=await request.post('/api/drafts',{headers:teacherHeader,data:{original:normalData.extraction,image_id:normalData.image_id,data:{title:normalData.extraction.title,unit:normalData.extraction.unit,categories:normalData.extraction.categories.map(({label,value}:{label:string,value:number})=>({label,value}))}}});
+  expect(another.status()).toBe(201);const anotherDraft=await another.json();
+  const complete=await request.post(`/api/drafts/${anotherDraft.id}/approve`,{headers:teacherHeader,data:{expected_version:1,confirmed:true}});expect(complete.status()).toBe(200);const completeSnapshot=await complete.json();
+  await student.goto(`${liveUrl}/learn/${completeSnapshot.id}`);
+  await expect(student.getByRole('heading',{name:'Students by class',exact:true})).toBeVisible();
+  await student.keyboard.press('Tab');
+  await expect(student.getByRole('link',{name:'メインコンテンツへ移動'})).toBeFocused();
+  await student.keyboard.press('Enter');await student.keyboard.press('Tab');
+  await expect(student.getByRole('combobox',{name:'比較する項目',exact:true})).toBeFocused();
+  await student.keyboard.press('ArrowDown');
+  await expect(student.getByRole('combobox',{name:'比較する項目',exact:true})).toHaveValue('1');
+  await student.keyboard.press('Tab');await student.keyboard.press('Home');
+  await expect(student.getByRole('combobox',{name:'差し引く項目',exact:true})).toHaveValue('0');
+  await student.keyboard.press('Tab');
+  await expect(student.getByRole('button',{name:'数値を比較する'})).toBeFocused();
+  await student.keyboard.press('Enter');
+  await expect(student.getByRole('status')).toContainText('差は 6 people');
+  expect(analyzeCalls).toBe(0);
+  fs.mkdirSync(evidence,{recursive:true});
+  // Repeated result, direct reload, responsive layouts, and an inaccessible URL.
+  await student.keyboard.press('Enter');
+  await expect(student.getByRole('status')).toContainText('差は 6 people');
+  await student.reload();
+  await expect(student.getByRole('table')).toBeVisible();
+  const responsive=[];
+  for(const width of [320,390,1280]){
+    await student.setViewportSize({width,height:850});
+    expect(await student.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+    const violations=(await new AxeBuilder({page:student}).analyze()).violations;
+    expect(violations).toEqual([]);responsive.push({width,axeViolations:violations.length});
+    await student.screenshot({path:artifactPath.join(evidence,`student-live-${width}.png`),fullPage:true});
+  }
+  await student.goto(`${liveUrl}/learn/not-a-material`);
+  await expect(student.getByRole('alert')).toBeFocused();
+  await expect(student.getByRole('alert')).toContainText('見つかりません');
+  await student.getByRole('button',{name:'もう一度読み込む'}).click();
+  await expect(student.getByRole('alert')).toBeFocused();
+  expect((await new AxeBuilder({page:student}).analyze()).violations).toEqual([]);
+  expect(analyzeCalls).toBe(0);
+  await student.goto(`${liveUrl}/learn/${completeSnapshot.id}`);
+  await expect(student.getByRole('table')).toBeVisible();
+  fs.writeFileSync(artifactPath.join(evidence,'firebase-full-flow.json'),JSON.stringify({timestamp:new Date().toISOString(),auth:'real Firebase email/password',cloud:true,teacherLogin:200,noTeacherClaim:403,otherOwner:404,sourceImageReload:true,teacherNumericCorrection:13,unknownOrigin:'teacher explicitly cleared second value after real extraction of fully labelled chart',rulesDirectAccess:rulesResults,snapshotId:snapshot.id,comparisonSnapshotId:completeSnapshot.id,shareUrl:`https://chartbridge-gqe6dtznpq-an.a.run.app/learn/${completeSnapshot.id}`,approvedRead:200,postApprovalUpdate:409,unknownExcluded:true,comparisonDifference:6,studentAnalyzeCalls:analyzeCalls,teacherAxe:teacherViolations.length,studentAxe:studentViolations.length,responsive,directUrlReload:true,missingMaterialErrorFocus:true},null,2));
+  await student.screenshot({path:artifactPath.join(evidence,'student-live.png'),fullPage:true});
+  await page.getByRole('button',{name:'ログアウト',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'保存済みの教材を開く'})).toHaveCount(0);
+  await expect(page.getByRole('img',{name:'照合用の元グラフ'})).toHaveCount(0);
+  await studentContext.close();
+});

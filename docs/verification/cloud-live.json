@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-11-05T02:22:46.905Z",
+  "target": "http://127.0.0.1:8085",
+  "health": 200,
+  "demo": false,
+  "authMode": "google_iam",
+  "apiStatus": 200,
+  "result": {
+    "status": "unreviewed",
+    "source": "gemini",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": 18,
+          "evidence": "18"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "jpegResult": {
+    "status": "unreviewed",
+    "source": "gemini",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": 18,
+          "evidence": "18"
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "uncertainResult": {
+    "status": "unreviewed",
+    "source": "gemini",
+    "extraction": {
+      "supported": true,
+      "reason": null,
+      "title": "Students by class",
+      "unit": "people",
+      "categories": [
+        {
+          "label": "A",
+          "value": 12,
+          "evidence": "12"
+        },
+        {
+          "label": "B",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "warnings": [
+        "Bの数値ラベルが「??」となっており判読できないためnullとしました。"
+      ]
+    }
+  },
+  "axeViolations": 0,
+  "persistence": {
+    "draftId": "8b4d224b2d294e93ac1175b3b471e38e",
+    "approvedSnapshot": {
+      "id": "3d347c13eaef43b19a2a91fe1abfd777",
+      "status": "approved",
+      "approved_at": "2026-11-05T02:22:44.120372+00:00",
+      "data": {
+        "title": "Students by class",
+        "unit": "people",
+        "categories": [
+          {
+            "label": "A",
+            "value": 13
+          },
+          {
+            "label": "B",
+            "value": null
+          }
+        ]
+      }
+    },
+    "unapprovedReadStatus": 404,
+    "staleUpdateStatus": 409,
+    "unconfirmedStatus": 422,
+    "updateAfterApprovalStatus": 409,
+    "snapshotUnchanged": true
+  }
+}

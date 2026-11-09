@@ -1,0 +1,425 @@
+{
+  "run": "legacy-baseline",
+  "completed_cases": 3,
+  "summary": {
+    "expected_cells": 15,
+    "expected_known": 15,
+    "expected_null": 0,
+    "numeric_correct": 6,
+    "category_correct": 15,
+    "returned_null": 9,
+    "appropriate_null": 0,
+    "unnecessary_null": 9,
+    "wrong_confirmed": 0,
+    "missing_cells": 0,
+    "extra_cells": 0,
+    "unit_mismatch_confirmed_cells": 0,
+    "images": 3,
+    "schema_valid": 3,
+    "complete_match": 0,
+    "title_correct": 3,
+    "unit_correct": 3,
+    "scope_correct": 3,
+    "mean_seconds": 40.667,
+    "median_seconds": 45.994,
+    "p95_seconds": 51.804,
+    "null_recall": null,
+    "null_precision": 0.0,
+    "numeric_accuracy": 0.4,
+    "abstention_rate": 0.6,
+    "failure_observations": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 9,
+      "F": 0,
+      "G": 0
+    },
+    "generation_request_latency": {
+      "cases_with_generation": 3,
+      "mean_seconds": 30.282,
+      "median_seconds": 35.272,
+      "p95_seconds": 36.497,
+      "includes_failed_attempts": true,
+      "excludes_queue_count_tokens_and_backoff": true
+    }
+  },
+  "raw_model_summary_before_safety": {
+    "expected_cells": 15,
+    "expected_known": 15,
+    "expected_null": 0,
+    "numeric_correct": 6,
+    "category_correct": 15,
+    "returned_null": 1,
+    "appropriate_null": 0,
+    "unnecessary_null": 1,
+    "wrong_confirmed": 8,
+    "missing_cells": 0,
+    "extra_cells": 0,
+    "unit_mismatch_confirmed_cells": 0,
+    "images": 3,
+    "schema_valid": 3,
+    "complete_match": 0,
+    "title_correct": 3,
+    "unit_correct": 3,
+    "scope_correct": 3,
+    "mean_seconds": 40.667,
+    "median_seconds": 45.994,
+    "p95_seconds": 51.804,
+    "null_recall": null,
+    "null_precision": 0.0,
+    "numeric_accuracy": 0.4,
+    "abstention_rate": 0.06666666666666667,
+    "failure_observations": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 1,
+      "F": 8,
+      "G": 0
+    },
+    "generation_request_latency": {
+      "cases_with_generation": 3,
+      "mean_seconds": 30.282,
+      "median_seconds": 35.272,
+      "p95_seconds": 36.497,
+      "includes_failed_attempts": true,
+      "excludes_queue_count_tokens_and_backoff": true
+    }
+  },
+  "diagnostic_only": true,
+  "failed_images": 3,
+  "failures": [
+    {
+      "id": "R02",
+      "input_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-39.png",
+      "input_sha256": "70388617e0b2fa284d01a4355f2305861016234db18af71dc2e0b432fd56566a",
+      "expected": {
+        "supported": true,
+        "title": "うめの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "和歌山",
+            "value": 64
+          },
+          {
+            "label": "群馬",
+            "value": 4
+          },
+          {
+            "label": "山梨",
+            "value": 2
+          },
+          {
+            "label": "三重",
+            "value": 2
+          },
+          {
+            "label": "福井",
+            "value": 1
+          }
+        ]
+      },
+      "returned": {
+        "supported": true,
+        "reason": null,
+        "title": "うめの生産量上位５都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "和歌山",
+            "value": null,
+            "evidence": "6万4千"
+          },
+          {
+            "label": "群馬",
+            "value": 4.0,
+            "evidence": "4"
+          },
+          {
+            "label": "山梨",
+            "value": 2.0,
+            "evidence": "2"
+          },
+          {
+            "label": "三重",
+            "value": 2.0,
+            "evidence": "2"
+          },
+          {
+            "label": "福井",
+            "value": 1.0,
+            "evidence": "1"
+          }
+        ],
+        "warnings": [
+          "和歌山の数値ラベル「6万4千」は単位（千t）および他項目の表記と整合せず数値の解釈が曖昧なためnullとしています。"
+        ]
+      },
+      "observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ],
+      "diagnoses": [],
+      "unexplained_observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "input_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-40.png",
+      "input_sha256": "e9e6afb26ba8b7a3f25fedf85fa7ae9ae0b63d5a15d6850b8df6aefab3de5e3b",
+      "expected": {
+        "supported": true,
+        "title": "ミニトマトの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "熊本",
+            "value": 41
+          },
+          {
+            "label": "愛知",
+            "value": 16
+          },
+          {
+            "label": "北海道",
+            "value": 15
+          },
+          {
+            "label": "宮崎",
+            "value": 9
+          },
+          {
+            "label": "茨城",
+            "value": 8
+          }
+        ]
+      },
+      "returned": {
+        "supported": true,
+        "reason": null,
+        "title": "ミニトマトの生産量上位５都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "熊本",
+            "value": null,
+            "evidence": "4万1千"
+          },
+          {
+            "label": "愛知",
+            "value": null,
+            "evidence": "1万6千"
+          },
+          {
+            "label": "北海道",
+            "value": null,
+            "evidence": "1万5千"
+          },
+          {
+            "label": "宮崎",
+            "value": 9.0,
+            "evidence": "9"
+          },
+          {
+            "label": "茨城",
+            "value": 8.0,
+            "evidence": "8"
+          }
+        ],
+        "warnings": [
+          "棒グラフ上の数値表記において、上位3件は漢数字（万・千）を含む表記、下位2件は単一の数字表記となっており、単位との整合性に不統一が見られます。",
+          "数値ラベルに千・万・億などの桁表記が含まれています。自動換算せず未確定にしました。元画像の軸単位と照合し、教員が修正してください。"
+        ]
+      },
+      "observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 1,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 2,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ],
+      "diagnoses": [],
+      "unexplained_observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 1,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 2,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "input_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-41.png",
+      "input_sha256": "f55a7390031d419f5163768f37dd6dc1d8cd2bdeb10333f2663053d8b73629dd",
+      "expected": {
+        "supported": true,
+        "title": "ブロッコリーの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": 28
+          },
+          {
+            "label": "埼玉",
+            "value": 16
+          },
+          {
+            "label": "愛知",
+            "value": 15
+          },
+          {
+            "label": "香川",
+            "value": 13
+          },
+          {
+            "label": "徳島",
+            "value": 12
+          }
+        ]
+      },
+      "returned": {
+        "supported": true,
+        "reason": null,
+        "title": "ブロッコリーの生産量上位 5 都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": null,
+            "evidence": "2万8千"
+          },
+          {
+            "label": "埼玉",
+            "value": null,
+            "evidence": "1万6千"
+          },
+          {
+            "label": "愛知",
+            "value": null,
+            "evidence": "1万5千"
+          },
+          {
+            "label": "香川",
+            "value": null,
+            "evidence": "1万3千"
+          },
+          {
+            "label": "徳島",
+            "value": null,
+            "evidence": "1万2千"
+          }
+        ],
+        "warnings": [
+          "数値ラベルに千・万・億などの桁表記が含まれています。自動換算せず未確定にしました。元画像の軸単位と照合し、教員が修正してください。"
+        ]
+      },
+      "observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 1,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 2,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 3,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 4,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ],
+      "diagnoses": [],
+      "unexplained_observations": [
+        {
+          "class": "E",
+          "cell": 0,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 1,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 2,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 3,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        },
+        {
+          "class": "E",
+          "cell": 4,
+          "observation": "Readable gold value held as null",
+          "cause": "原因未特定"
+        }
+      ]
+    }
+  ],
+  "classification_note": "Observations can overlap. B includes lexical mismatches and is not automatically a proven physical-unit accident. A/C are symptoms/candidates, not proven internal mechanisms."
+}

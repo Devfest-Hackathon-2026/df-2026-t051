@@ -1,0 +1,16 @@
+{
+  "maximum_generation_calls": 2,
+  "maximum_count_calls": 2,
+  "conservative_reserved_usd": "0.073728",
+  "ledger_indices": [
+    {
+      "generation": 443,
+      "count": 444
+    },
+    {
+      "generation": 445,
+      "count": 446
+    }
+  ],
+  "note": "Runtime usage not exposed to browser; retain conservative reservation, do not pretend it is actual billed cost."
+}

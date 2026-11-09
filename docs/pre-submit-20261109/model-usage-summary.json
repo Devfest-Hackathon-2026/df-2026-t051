@@ -1,0 +1,14 @@
+{
+  "actual_new_generations": 27,
+  "actual_new_count_calls": 27,
+  "additional_unused_generation_reservations": 1,
+  "additional_unused_count_reservations": 1,
+  "cumulative_generation_reservations": 256,
+  "cumulative_count_reservations": 257,
+  "cumulative_estimated_or_reserved_usd": "1.00371900",
+  "direct_23_generation_usage_estimate_usd": "0.04714800",
+  "cloud_4_generation_usage_not_exposed": true,
+  "approved_cumulative_cap_usd": "5",
+  "new_call_cap": 32,
+  "new_observed_provider_429_retries": 0
+}

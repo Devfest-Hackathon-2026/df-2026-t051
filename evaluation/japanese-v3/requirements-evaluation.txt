@@ -1,0 +1,2 @@
+# Local evaluation only. Not installed in the Cloud Run image.
+xlrd==2.0.2

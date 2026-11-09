@@ -1,0 +1,220 @@
+{
+  "note": "15 distinct files, not 15 independent source documents; related tutorial screenshots are grouped. No numeric accuracy denominator.",
+  "publication": {
+    "format": "source-index-v1",
+    "table_content_omitted": true,
+    "original_sha256": "98d6c4e85870eaf40d325ad6f1acd510e41bd0ec15c6e4fcadf7007375981d85"
+  },
+  "cases": [
+    {
+      "id": "JX01",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_1.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "7c7358ea7f6c36178dc2a781cf751b11b5fb3573ed9386025698272896f00bf0",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX02",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_2.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "7f4920cc32467a0854be130551ab27252234408f3d544cd85fc74f04c214f5f4",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX03",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_3.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "6284d680ca1fd710ce7a61e309ef3d01380bcf58957d5495e73ac80d296ff3c6",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX04",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_4.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "fd6498bf125f1f08bd8939e958ff676c4909dd1964e02425e04b13258ef5bac8",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX05",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_5.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "698b9d69435fd2e631759be763b236faa2ef81db2f364534ab86d9136ef061e9",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX06",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_6.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "1f118b77dff2767ac788f0fd23b2d0be67f319f23191aeb8f64c6f7ffe414eb4",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "JX07",
+      "image_url": "https://www.stat.go.jp/naruhodo/img/picture/4_4_7.png",
+      "source_group": "japan-statistics-bureau-graph-tutorial",
+      "source_page": "https://www.stat.go.jp/naruhodo/4_graph/shokyu/bou-graph.html",
+      "terms_url": "https://www.stat.go.jp/info/riyou.html",
+      "attribution": "出典：総務省統計局「なるほど統計学園・棒グラフ」。原図・加工なし。PDL1.0、第三者権利の例外は維持。",
+      "image_sha256": "41238a83a17f522767e32ef472e045620419bbddb7b41598a81a038c5d1608bf",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "OX00339007006077",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/00339007006077.png",
+      "source_group": "our-world-in-data-horizontal",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://ourworldindata.org/faqs",
+      "attribution": "Our World in Data and underlying providers printed in chart; CC BY as printed in archived chart, third-party data conditions remain. Archived by ChartQA authors.",
+      "image_sha256": "8b67ff05a3b2ff79cb66bbd9c15378a39e1d0581d251bcc5cffa3eba61dcc86a",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "OX01001540004402",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/01001540004402.png",
+      "source_group": "our-world-in-data-horizontal",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://ourworldindata.org/faqs",
+      "attribution": "Our World in Data and underlying providers printed in chart; CC BY as printed in archived chart, third-party data conditions remain. Archived by ChartQA authors.",
+      "image_sha256": "4b1eab2e84265add881d1f9c596449f205c6354280acf1700f90b8d51825f0c8",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "OX01499440003158",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/01499440003158.png",
+      "source_group": "our-world-in-data-horizontal",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://ourworldindata.org/faqs",
+      "attribution": "Our World in Data and underlying providers printed in chart; CC BY as printed in archived chart, third-party data conditions remain. Archived by ChartQA authors.",
+      "image_sha256": "fcfd9ea7425420f909e7c084c556d21115f037999840d5a025bdd56d511ddcec",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "OX01729694006399",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/01729694006399.png",
+      "source_group": "our-world-in-data-horizontal",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://ourworldindata.org/faqs",
+      "attribution": "Our World in Data and underlying providers printed in chart; CC BY as printed in archived chart, third-party data conditions remain. Archived by ChartQA authors.",
+      "image_sha256": "d6d333618e21ca883c106d9acb2fadc3f16cd312b0f9beb59c3a25d8e9156a9e",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "OX02534409005100",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/02534409005100.png",
+      "source_group": "our-world-in-data-horizontal",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://ourworldindata.org/faqs",
+      "attribution": "Our World in Data and underlying providers printed in chart; CC BY as printed in archived chart, third-party data conditions remain. Archived by ChartQA authors.",
+      "image_sha256": "695d7c2f7c1c1d22106227a1daf478d46ca12ebd89df82a4a43c3a5cc48ffb65",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "EX00",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_AIR_AND_GHG_EMISSIONS_BEL_BEN_LBY_PAN_UZB_000121.png",
+      "source_group": "oecd-line-0",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://www.oecd.org/en/about/terms-conditions.html",
+      "attribution": "OECD, indicator/source printed in chart; ChartQA archive. No endorsement.",
+      "image_sha256": "0691909be6931af2b6992afc82acdbdd88027266cedd34eba3993c49cc904443",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "EX01",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_FDI_INCOME_PAYMENTS_BY_INDUSTRY_HUN_LTU_000042.png",
+      "source_group": "oecd-line-1",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://www.oecd.org/en/about/terms-conditions.html",
+      "attribution": "OECD, indicator/source printed in chart; ChartQA archive. No endorsement.",
+      "image_sha256": "a0983971db2f9409100170f25f637852af1be88d8db60ab9fc5ce8a94291f272",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    },
+    {
+      "id": "EX02",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_GROSS_DIRECT_INSURANCE_PREMIUMS_AUS_CHL_ISR_PRT_URY_000090.png",
+      "source_group": "oecd-line-2",
+      "source_page": "https://github.com/vis-nlp/ChartQA",
+      "terms_url": "https://www.oecd.org/en/about/terms-conditions.html",
+      "attribution": "OECD, indicator/source printed in chart; ChartQA archive. No endorsement.",
+      "image_sha256": "8afa19db732e35c37b281a14a83a02d9895c5109b19289a41924cff1eed9d9f5",
+      "split": "anomaly",
+      "gold": {
+        "supported": false,
+        "categories": []
+      }
+    }
+  ]
+}

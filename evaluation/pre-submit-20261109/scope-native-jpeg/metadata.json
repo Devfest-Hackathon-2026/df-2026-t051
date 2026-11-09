@@ -1,0 +1,19 @@
+{
+  "started_after_code_freeze": true,
+  "frozen_code_hashes": {
+    "backend/app/extraction.py": "afb377917d208d7a1b2e5234f75eadd85b347041649be6e87413ba2e6f9cba56",
+    "backend/app/models.py": "a0b8cea72f86be085143067a1bfc0515c15558cf7cf422b41c2d9bafe7484546",
+    "backend/app/safety.py": "80db6ab7ef090ac936bbdb96adc88ad88fb835595de3b0da554664db46143c70",
+    "backend/app/numeric_labels.py": "b8f6c0003bbc1c897dfe3e8b00c28a05a94a7ae67bdcdc352fdf275f66717683",
+    "scripts/eval_core.py": "4dca416ee5c07ec5036cdae11f50023469f8e8d651c277a802cce8974f91fc3a",
+    "scripts/run_large_evaluation.py": "730c587b763e666be51e7efb8399f3e9c54e7a1a8650da881c1f0b3ff3319593",
+    "scripts/run_japanese_audit.py": "1b555feb75af42f0d4151d0f9a5d063798408a58965530be13818e490e0238bf"
+  },
+  "dataset_sha256": "4f4691d65f98b6ff3873908f7c8a50efb973406df1305c52ba873e4fb2f3bdef",
+  "model": "gemini-3.8-flash",
+  "independent_normal_accuracy": false,
+  "purpose": "New source out-of-scope rejection only",
+  "planned_cases": 3,
+  "completed_cases": 3,
+  "stopped": false
+}

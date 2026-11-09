@@ -1,0 +1,11 @@
+
+Running 6 tests using 1 worker
+
+  ok 1 tests\resilience.spec.ts:3:39 › teacher handles injected 401 without automatic retry (419ms)
+  ok 2 tests\resilience.spec.ts:3:39 › teacher handles injected 403 without automatic retry (343ms)
+  ok 3 tests\resilience.spec.ts:3:39 › teacher handles injected 429 without automatic retry (342ms)
+  ok 4 tests\resilience.spec.ts:3:39 › teacher handles injected 504 without automatic retry (344ms)
+  ok 5 tests\resilience.spec.ts:9:1 › teacher recovers from injected network failure (310ms)
+  ok 6 tests\resilience.spec.ts:13:1 › teacher bounds a stalled request at its application timeout (357ms)
+
+  6 passed (5.2s)

@@ -1,0 +1,5172 @@
+{
+  "generation_attempts": 181,
+  "count_attempts": 182,
+  "charged_or_reserved_usd": "0.40585875",
+  "attempts": [
+    {
+      "kind": "count",
+      "case": "transport-smoke2/O000",
+      "reserved_usd": "0",
+      "state": "ValueError"
+    },
+    {
+      "kind": "count",
+      "case": "transport-smoke3/O000",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "transport-smoke3/O000",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 89,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 432,
+        "total_token_count": 1772
+      },
+      "estimated_usd": "0.002892"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O000",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O002",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O000",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 167,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 455,
+        "total_token_count": 1873
+      },
+      "estimated_usd": "0.00327075"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O002",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 122,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 310,
+        "total_token_count": 1683
+      },
+      "estimated_usd": "0.00255825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O003",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O003",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 74,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 184,
+        "total_token_count": 1509
+      },
+      "estimated_usd": "0.00190575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O005",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O006",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O005",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 239,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 245,
+        "total_token_count": 1735
+      },
+      "estimated_usd": "0.00275325"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O006",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 123,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 418,
+        "total_token_count": 1792
+      },
+      "estimated_usd": "0.002967"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O008",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O008",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 99,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 507,
+        "total_token_count": 1857
+      },
+      "estimated_usd": "0.00321075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O009",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O009",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 139,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 331,
+        "total_token_count": 1721
+      },
+      "estimated_usd": "0.00270075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O011",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O011",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 448,
+        "total_token_count": 1761
+      },
+      "estimated_usd": "0.00285075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O013",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O013",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 312,
+        "total_token_count": 1631
+      },
+      "estimated_usd": "0.00236325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O015",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O015",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 119,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 319,
+        "total_token_count": 1689
+      },
+      "estimated_usd": "0.00258075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O016",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O016",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 301,
+        "total_token_count": 1615
+      },
+      "estimated_usd": "0.00230325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O017",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O017",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 112,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 365,
+        "total_token_count": 1728
+      },
+      "estimated_usd": "0.002727"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O018",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O018",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 59,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 429,
+        "total_token_count": 1739
+      },
+      "estimated_usd": "0.00276825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O019",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O019",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 234,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 380,
+        "total_token_count": 1865
+      },
+      "estimated_usd": "0.00324075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O022",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O022",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 196,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 348,
+        "total_token_count": 1795
+      },
+      "estimated_usd": "0.00297825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O023",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O023",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 379,
+        "total_token_count": 1691
+      },
+      "estimated_usd": "0.00258825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O027",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O027",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 76,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 254,
+        "total_token_count": 1581
+      },
+      "estimated_usd": "0.00217575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O028",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O030",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O028",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 139,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 260,
+        "total_token_count": 1650
+      },
+      "estimated_usd": "0.0024345"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O030",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 57,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 217,
+        "total_token_count": 1525
+      },
+      "estimated_usd": "0.00196575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O031",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O033",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O031",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 102,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 239,
+        "total_token_count": 1592
+      },
+      "estimated_usd": "0.002217"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O033",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 234,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 538,
+        "total_token_count": 2023
+      },
+      "estimated_usd": "0.00383325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O036",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O036",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 82,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 416,
+        "total_token_count": 1749
+      },
+      "estimated_usd": "0.00280575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O037",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O037",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 128,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 192,
+        "total_token_count": 1571
+      },
+      "estimated_usd": "0.00213825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O039",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O041",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O039",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 86,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 269,
+        "total_token_count": 1606
+      },
+      "estimated_usd": "0.0022695"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O041",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 86,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 356,
+        "total_token_count": 1693
+      },
+      "estimated_usd": "0.00259575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O042",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O042",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 64,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 204,
+        "total_token_count": 1519
+      },
+      "estimated_usd": "0.00194325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O045",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O050",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O045",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 91,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 397,
+        "total_token_count": 1739
+      },
+      "estimated_usd": "0.00276825"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O050",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 360,
+        "total_token_count": 1676
+      },
+      "estimated_usd": "0.002532"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O052",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O052",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 75,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 310,
+        "total_token_count": 1636
+      },
+      "estimated_usd": "0.002382"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O053",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O053",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 285,
+        "total_token_count": 1598
+      },
+      "estimated_usd": "0.0022395"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O054",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O054",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 59,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 341,
+        "total_token_count": 1651
+      },
+      "estimated_usd": "0.00243825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O055",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O055",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 219,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 234,
+        "total_token_count": 1704
+      },
+      "estimated_usd": "0.002637"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O056",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O057",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O056",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 103,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 347,
+        "total_token_count": 1701
+      },
+      "estimated_usd": "0.00262575"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O057",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 64,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 369,
+        "total_token_count": 1684
+      },
+      "estimated_usd": "0.002562"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O058",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O058",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 187,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 332,
+        "total_token_count": 1770
+      },
+      "estimated_usd": "0.0028845"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O059",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O059",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 69,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 249,
+        "total_token_count": 1569
+      },
+      "estimated_usd": "0.00213075"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O060",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O060",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 55,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 288,
+        "total_token_count": 1594
+      },
+      "estimated_usd": "0.0022245"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O062",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O062",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 118,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 383,
+        "total_token_count": 1752
+      },
+      "estimated_usd": "0.002817"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O063",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O063",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 121,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 537,
+        "total_token_count": 1909
+      },
+      "estimated_usd": "0.00340575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O064",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O064",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 465,
+        "total_token_count": 1781
+      },
+      "estimated_usd": "0.00292575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O065",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O065",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 110,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 291,
+        "total_token_count": 1652
+      },
+      "estimated_usd": "0.002442"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O066",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O066",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 141,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 506,
+        "total_token_count": 1898
+      },
+      "estimated_usd": "0.0033645"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O067",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O067",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 227,
+        "total_token_count": 1546
+      },
+      "estimated_usd": "0.0020445"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O071",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O073",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O071",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 290,
+        "total_token_count": 1602
+      },
+      "estimated_usd": "0.0022545"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O073",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 60,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 317,
+        "total_token_count": 1628
+      },
+      "estimated_usd": "0.002352"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O074",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O074",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 124,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 380,
+        "total_token_count": 1755
+      },
+      "estimated_usd": "0.00282825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O075",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O075",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 363,
+        "total_token_count": 1676
+      },
+      "estimated_usd": "0.002532"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O076",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O076",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 89,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 328,
+        "total_token_count": 1668
+      },
+      "estimated_usd": "0.002502"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O077",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O079",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O077",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 270,
+        "total_token_count": 1582
+      },
+      "estimated_usd": "0.0021795"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O079",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 243,
+        "total_token_count": 1555
+      },
+      "estimated_usd": "0.00207825"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O081",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O082",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O081",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 94,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 288,
+        "total_token_count": 1633
+      },
+      "estimated_usd": "0.00237075"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O082",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 89,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 449,
+        "total_token_count": 1789
+      },
+      "estimated_usd": "0.00295575"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O087",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O087",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 95,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 290,
+        "total_token_count": 1636
+      },
+      "estimated_usd": "0.002382"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O088",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O088",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 119,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 298,
+        "total_token_count": 1668
+      },
+      "estimated_usd": "0.002502"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O089",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O090",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O089",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 190,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 600,
+        "total_token_count": 2041
+      },
+      "estimated_usd": "0.00390075"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O090",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 365,
+        "total_token_count": 1679
+      },
+      "estimated_usd": "0.00254325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O091",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O091",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 81,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 410,
+        "total_token_count": 1742
+      },
+      "estimated_usd": "0.0027795"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O094",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O094",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 195,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 433,
+        "total_token_count": 1879
+      },
+      "estimated_usd": "0.00329325"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O096",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O096",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 79,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 278,
+        "total_token_count": 1608
+      },
+      "estimated_usd": "0.002277"
+    },
+    {
+      "kind": "count",
+      "case": "development-baseline/O097",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-baseline/O097",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 182,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 461,
+        "total_token_count": 1894
+      },
+      "estimated_usd": "0.0033495"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-baseline/R02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-baseline/R03",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-baseline/R02",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 144,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 3928,
+        "total_token_count": 5323
+      },
+      "estimated_usd": "0.01620825"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-baseline/R03",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 279,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 3155,
+        "total_token_count": 4685
+      },
+      "estimated_usd": "0.01381575"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-baseline/R05",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-baseline/R05",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 248,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 2214,
+        "total_token_count": 3713
+      },
+      "estimated_usd": "0.01017075"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX03",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX02",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 56,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          }
+        ],
+        "thoughts_token_count": 165,
+        "total_token_count": 1489
+      },
+      "estimated_usd": "0.00177975"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX03",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1276,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1100
+          }
+        ],
+        "thoughts_token_count": 180,
+        "total_token_count": 1518
+      },
+      "estimated_usd": "0.0018645"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX04",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX05",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX04",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 40,
+        "prompt_token_count": 1232,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1056
+          }
+        ],
+        "thoughts_token_count": 184,
+        "total_token_count": 1456
+      },
+      "estimated_usd": "0.001764"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX05",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 41,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          }
+        ],
+        "thoughts_token_count": 163,
+        "total_token_count": 1472
+      },
+      "estimated_usd": "0.001716"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX06",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/JX07",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX06",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 34,
+        "prompt_token_count": 1276,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1100
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 245,
+        "total_token_count": 1555
+      },
+      "estimated_usd": "0.00200325"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/JX07",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 35,
+        "prompt_token_count": 1256,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1080
+          }
+        ],
+        "thoughts_token_count": 364,
+        "total_token_count": 1655
+      },
+      "estimated_usd": "0.00243825"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/OX00339007006077",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/OX01001540004402",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/OX00339007006077",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 41,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 328,
+        "total_token_count": 1637
+      },
+      "estimated_usd": "0.00233475"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/OX01001540004402",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 41,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 921,
+        "total_token_count": 2230
+      },
+      "estimated_usd": "0.0045585"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/OX01499440003158",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/OX01499440003158",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 54,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 297,
+        "total_token_count": 1619
+      },
+      "estimated_usd": "0.00226725"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/OX01729694006399",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/OX02534409005100",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/OX01729694006399",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 40,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 392,
+        "total_token_count": 1700
+      },
+      "estimated_usd": "0.002571"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/OX02534409005100",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 51,
+        "prompt_token_count": 1268,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 438,
+        "total_token_count": 1757
+      },
+      "estimated_usd": "0.00278475"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/EX00",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/EX00",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 42,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 159,
+        "total_token_count": 1452
+      },
+      "estimated_usd": "0.001692"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/EX01",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-baseline/EX02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/EX01",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 48,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 140,
+        "total_token_count": 1439
+      },
+      "estimated_usd": "0.00164325"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-baseline/EX02",
+      "reserved_usd": "0.021504",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 58,
+        "prompt_token_count": 1251,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 176
+          }
+        ],
+        "thoughts_token_count": 180,
+        "total_token_count": 1489
+      },
+      "estimated_usd": "0.00183075"
+    },
+    {
+      "kind": "count",
+      "case": "candidate-transport/O000",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "candidate-transport/O000",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 89,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1558
+      },
+      "estimated_usd": "0.0014355"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O000",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O002",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O000",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 89,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1558
+      },
+      "estimated_usd": "0.0014355"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O002",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 129,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1598
+      },
+      "estimated_usd": "0.0015855"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O003",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O003",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 74,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1543
+      },
+      "estimated_usd": "0.00137925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O005",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O005",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 125,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1594
+      },
+      "estimated_usd": "0.0015705"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O006",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O006",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 71,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1540
+      },
+      "estimated_usd": "0.001368"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O008",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O008",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 99,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1568
+      },
+      "estimated_usd": "0.001473"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O009",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O009",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 73,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1542
+      },
+      "estimated_usd": "0.0013755"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O011",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O011",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1531
+      },
+      "estimated_usd": "0.00133425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O013",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O013",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1537
+      },
+      "estimated_usd": "0.00135675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O015",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O015",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 233,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1702
+      },
+      "estimated_usd": "0.0019755"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O016",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O016",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1532
+      },
+      "estimated_usd": "0.001338"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O017",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O017",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 227,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1696
+      },
+      "estimated_usd": "0.001953"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O018",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O018",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 59,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1528
+      },
+      "estimated_usd": "0.001323"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O019",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O019",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 119,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1588
+      },
+      "estimated_usd": "0.001548"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O022",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O022",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 98,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1567
+      },
+      "estimated_usd": "0.00146925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O023",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O023",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1530
+      },
+      "estimated_usd": "0.0013305"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O027",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O027",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 76,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1545
+      },
+      "estimated_usd": "0.00138675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O028",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O028",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 69,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1538
+      },
+      "estimated_usd": "0.0013605"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O030",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O030",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1530
+      },
+      "estimated_usd": "0.0013305"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O031",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O031",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 102,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1571
+      },
+      "estimated_usd": "0.00148425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O033",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O033",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 238,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1707
+      },
+      "estimated_usd": "0.00199425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O036",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O036",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 164,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1633
+      },
+      "estimated_usd": "0.00171675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O037",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O037",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1537
+      },
+      "estimated_usd": "0.00135675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O039",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O039",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 69,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1538
+      },
+      "estimated_usd": "0.0013605"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O041",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O041",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 182,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1651
+      },
+      "estimated_usd": "0.00178425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O042",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O042",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 66,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1535
+      },
+      "estimated_usd": "0.00134925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O045",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O045",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 91,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1560
+      },
+      "estimated_usd": "0.001443"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O050",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O050",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1534
+      },
+      "estimated_usd": "0.0013455"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O052",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O052",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 128,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1597
+      },
+      "estimated_usd": "0.00158175"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O053",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O053",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 62,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1531
+      },
+      "estimated_usd": "0.00133425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O054",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O054",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 59,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1528
+      },
+      "estimated_usd": "0.001323"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O055",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O055",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 104,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1573
+      },
+      "estimated_usd": "0.00149175"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O056",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O056",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 78,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1547
+      },
+      "estimated_usd": "0.00139425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O057",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O057",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 139,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1608
+      },
+      "estimated_usd": "0.001623"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O058",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O058",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 98,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1567
+      },
+      "estimated_usd": "0.00146925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O059",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O059",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1532
+      },
+      "estimated_usd": "0.001338"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O060",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O060",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 120,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1589
+      },
+      "estimated_usd": "0.00155175"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O062",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O062",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 118,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1587
+      },
+      "estimated_usd": "0.00154425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O063",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O063",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 227,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1696
+      },
+      "estimated_usd": "0.001953"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O064",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O064",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1534
+      },
+      "estimated_usd": "0.0013455"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O065",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O065",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 116,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1585
+      },
+      "estimated_usd": "0.00153675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O066",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O066",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 74,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1543
+      },
+      "estimated_usd": "0.00137925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O067",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O067",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 70,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1539
+      },
+      "estimated_usd": "0.00136425"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O071",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O071",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 122,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1591
+      },
+      "estimated_usd": "0.00155925"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O073",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O073",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 121,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1590
+      },
+      "estimated_usd": "0.0015555"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O074",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O074",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 75,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1544
+      },
+      "estimated_usd": "0.001383"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O075",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O075",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 123,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1592
+      },
+      "estimated_usd": "0.001563"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O076",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O076",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 192,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1661
+      },
+      "estimated_usd": "0.00182175"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O077",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O077",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 67,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1536
+      },
+      "estimated_usd": "0.001353"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O079",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O079",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1532
+      },
+      "estimated_usd": "0.001338"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O081",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O081",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 85,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1554
+      },
+      "estimated_usd": "0.0014205"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O082",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O082",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 81,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1550
+      },
+      "estimated_usd": "0.0014055"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O087",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O087",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 100,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1569
+      },
+      "estimated_usd": "0.00147675"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O088",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O088",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 119,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1588
+      },
+      "estimated_usd": "0.001548"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O089",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O089",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 201,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1670
+      },
+      "estimated_usd": "0.0018555"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O090",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O090",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 63,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1532
+      },
+      "estimated_usd": "0.001338"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O091",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O091",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1534
+      },
+      "estimated_usd": "0.0013455"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O094",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O094",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 99,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1568
+      },
+      "estimated_usd": "0.001473"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O096",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O096",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 157,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1626
+      },
+      "estimated_usd": "0.0016905"
+    },
+    {
+      "kind": "count",
+      "case": "development-cycle1/O097",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "development-cycle1/O097",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 186,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1655
+      },
+      "estimated_usd": "0.00179925"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-cycle1/R02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-cycle1/R03",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-cycle1/R02",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 129,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1598
+      },
+      "estimated_usd": "0.0015855"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-cycle1/R03",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 261,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 1744,
+        "total_token_count": 3474
+      },
+      "estimated_usd": "0.0086205"
+    },
+    {
+      "kind": "count",
+      "case": "legacy-cycle1/R05",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "legacy-cycle1/R05",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 246,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 1827,
+        "total_token_count": 3542
+      },
+      "estimated_usd": "0.0088755"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX03",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX02",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 53,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1539
+      },
+      "estimated_usd": "0.00131325"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX03",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 69,
+        "prompt_token_count": 1494,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1100
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "thoughts_token_count": 218,
+        "total_token_count": 1781
+      },
+      "estimated_usd": "0.00219675"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX04",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX04",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 39,
+        "prompt_token_count": 1450,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1056
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "thoughts_token_count": 85,
+        "total_token_count": 1574
+      },
+      "estimated_usd": "0.0015525"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX05",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX05",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 48,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          }
+        ],
+        "total_token_count": 1534
+      },
+      "estimated_usd": "0.0012945"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX06",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX06",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 39,
+        "prompt_token_count": 1494,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1100
+          }
+        ],
+        "thoughts_token_count": 146,
+        "total_token_count": 1679
+      },
+      "estimated_usd": "0.00181425"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/JX07",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/JX07",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 91,
+        "prompt_token_count": 1474,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1080
+          }
+        ],
+        "total_token_count": 1565
+      },
+      "estimated_usd": "0.00144675"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/OX00339007006077",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/OX00339007006077",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 35,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          }
+        ],
+        "thoughts_token_count": 363,
+        "total_token_count": 1884
+      },
+      "estimated_usd": "0.002607"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/OX01001540004402",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/OX01001540004402",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 51,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "thoughts_token_count": 256,
+        "total_token_count": 1793
+      },
+      "estimated_usd": "0.00226575"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/OX01499440003158",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/OX01499440003158",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 44,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "thoughts_token_count": 91,
+        "total_token_count": 1621
+      },
+      "estimated_usd": "0.00162075"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/OX01729694006399",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/OX01729694006399",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 59,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1545
+      },
+      "estimated_usd": "0.00133575"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/OX02534409005100",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/OX02534409005100",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 57,
+        "prompt_token_count": 1486,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1092
+          }
+        ],
+        "thoughts_token_count": 248,
+        "total_token_count": 1791
+      },
+      "estimated_usd": "0.00225825"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/EX00",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/EX00",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 57,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1526
+      },
+      "estimated_usd": "0.0013155"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/EX01",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/EX01",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 54,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "thoughts_token_count": 34,
+        "total_token_count": 1557
+      },
+      "estimated_usd": "0.00143175"
+    },
+    {
+      "kind": "count",
+      "case": "anomaly-cycle1/EX02",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "anomaly-cycle1/EX02",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1537
+      },
+      "estimated_usd": "0.00135675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O004",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O010",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O004",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 164,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1633
+      },
+      "estimated_usd": "0.00171675"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O010",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 73,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 291,
+        "total_token_count": 1833
+      },
+      "estimated_usd": "0.00246675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O014",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O014",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 60,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1529
+      },
+      "estimated_usd": "0.00132675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O021",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O021",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 72,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1541
+      },
+      "estimated_usd": "0.00137175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O024",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O024",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 102,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 122,
+        "total_token_count": 1693
+      },
+      "estimated_usd": "0.00194175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O025",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O025",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 228,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1697
+      },
+      "estimated_usd": "0.00195675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O026",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O026",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 97,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "thoughts_token_count": 190,
+        "total_token_count": 1756
+      },
+      "estimated_usd": "0.002178"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O029",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O029",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 85,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1554
+      },
+      "estimated_usd": "0.0014205"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O034",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O034",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 128,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1597
+      },
+      "estimated_usd": "0.00158175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O048",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O048",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 99,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1568
+      },
+      "estimated_usd": "0.001473"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O068",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O068",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 76,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1545
+      },
+      "estimated_usd": "0.00138675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O069",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O069",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 133,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1602
+      },
+      "estimated_usd": "0.0016005"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O072",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O072",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 80,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1549
+      },
+      "estimated_usd": "0.00140175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O078",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O078",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 65,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1534
+      },
+      "estimated_usd": "0.0013455"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O080",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O080",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 68,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1537
+      },
+      "estimated_usd": "0.00135675"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O084",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O084",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 120,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1589
+      },
+      "estimated_usd": "0.00155175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O086",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O086",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 61,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1530
+      },
+      "estimated_usd": "0.0013305"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O092",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O092",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 78,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1547
+      },
+      "estimated_usd": "0.00139425"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O093",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O093",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 241,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1710
+      },
+      "estimated_usd": "0.0020055"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O098",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O098",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 75,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1544
+      },
+      "estimated_usd": "0.001383"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O109",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O109",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 131,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1600
+      },
+      "estimated_usd": "0.001593"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O118",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O118",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 75,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1544
+      },
+      "estimated_usd": "0.001383"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O120",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O120",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 80,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1549
+      },
+      "estimated_usd": "0.00140175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O123",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O123",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 128,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          }
+        ],
+        "total_token_count": 1597
+      },
+      "estimated_usd": "0.00158175"
+    },
+    {
+      "kind": "count",
+      "case": "final-once/O124",
+      "reserved_usd": "0",
+      "state": "completed"
+    },
+    {
+      "kind": "generation",
+      "case": "final-once/O124",
+      "reserved_usd": "0.036864",
+      "state": "completed",
+      "usage": {
+        "candidates_token_count": 110,
+        "prompt_token_count": 1469,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 394
+          },
+          {
+            "modality": "IMAGE",
+            "token_count": 1075
+          }
+        ],
+        "total_token_count": 1579
+      },
+      "estimated_usd": "0.00151425"
+    }
+  ]
+}

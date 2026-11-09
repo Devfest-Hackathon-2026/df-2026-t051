@@ -1,0 +1,205 @@
+{
+  "cases": [
+    {
+      "id": "O004",
+      "source_group": "health-statistics",
+      "image_sha256": "c8914ed37d91ee3735ea2da8693b3b14d0c59a1f78d6567bf81b5233752c307a",
+      "table_sha256": "9c0ffaaf310b4aaa804ec537e6693f2f64755c5d5dd4d39583f76e14b571b6c6",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_DEATHS_FROM_CANCER_COL_CRI_SVN_000015.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/tables/OECD_DEATHS_FROM_CANCER_COL_CRI_SVN_000015.csv"
+    },
+    {
+      "id": "O010",
+      "source_group": "health-statistics",
+      "image_sha256": "2e09771ac42a30b80dc1608324b78affc978cd49842e1c93ffad5a1a8a42b4cd",
+      "table_sha256": "1e01c74977018689565b8e1140814ba82373e4675ebdb00d6531f242efc6ac0c",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_INFANT_MORTALITY_RATES_EST_NZL_000048.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/tables/OECD_INFANT_MORTALITY_RATES_EST_NZL_000048.csv"
+    },
+    {
+      "id": "O014",
+      "source_group": "education-statistics",
+      "image_sha256": "5b4daa0e01f73d7c3396ed721db1ed587ae23136b04d60c2f2f5c8bc55887ffc",
+      "table_sha256": "73f048baae12cb6f6a44bcea4c5a6a626c44457298fdeec4018fbf31283f300c",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/png/OECD_SCHOOL_PRINCIPALS_ITA_SGP_000000.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/test/tables/OECD_SCHOOL_PRINCIPALS_ITA_SGP_000000.csv"
+    },
+    {
+      "id": "O021",
+      "source_group": "health-statistics",
+      "image_sha256": "5a0cb139861799448cae62b8fa6754b326e988a324e04eb10b95a507811fd907",
+      "table_sha256": "12ebf916e66b139eaf64e55382b7b3fa0ac68f496d27c2be96af091e63d15faf",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_ALCOHOL_CONSUMPTION_CHL_EST_TUR_000000.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_ALCOHOL_CONSUMPTION_CHL_EST_TUR_000000.csv"
+    },
+    {
+      "id": "O024",
+      "source_group": "health-statistics",
+      "image_sha256": "a397682eea1b72678ca5a32d6aa29c01cd3b8511b74d2ab10d9751d0407fcae8",
+      "table_sha256": "49f51bae8ee0ba834abb4d359f9727e90092695048fdb4fe844002b7f687c007",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_CHILD_VACCINATION_RATES_BRA_COL_CRI_DNK_EST_000016.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_CHILD_VACCINATION_RATES_BRA_COL_CRI_DNK_EST_000016.csv"
+    },
+    {
+      "id": "O025",
+      "source_group": "health-statistics",
+      "image_sha256": "2fbee2c69a2a655faaa03ea9cb5b4e381f2edead61466118ce5cd3b8fa6a3806",
+      "table_sha256": "c9abf776519d840d5e9664e00052a9d3c81aec8455f520b21ca1f7eb75de0285",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_COMPUTED_TOMOGRAPHY_%28CT%29_EXAMS_CRI_FRA_HUN_ITA_LVA_000002.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_COMPUTED_TOMOGRAPHY_%28CT%29_EXAMS_CRI_FRA_HUN_ITA_LVA_000002.csv"
+    },
+    {
+      "id": "O026",
+      "source_group": "health-statistics",
+      "image_sha256": "3ba93a2b6ae3b0d81495bb90172bea9dc941806db5c36463432e0c002fd2dd83",
+      "table_sha256": "974f98e82d6291e246fb157a5730bfe7fb346880f97737b116b10b99816016ad",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_COMPUTED_TOMOGRAPHY_%28CT%29_SCANNERS_EST_NLD_SVK_000001.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_COMPUTED_TOMOGRAPHY_%28CT%29_SCANNERS_EST_NLD_SVK_000001.csv"
+    },
+    {
+      "id": "O029",
+      "source_group": "health-statistics",
+      "image_sha256": "985e837934c6189a121c833d08c22dfb1ffa50b2b6ae5ef47666dffb304688c3",
+      "table_sha256": "62b1a391af5f49a45555110c17a22784bc415d454c612d4f3d3a5212101f9dc7",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_DOCTORS_AUS_BEL_LUX_000014.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_DOCTORS_AUS_BEL_LUX_000014.csv"
+    },
+    {
+      "id": "O034",
+      "source_group": "education-statistics",
+      "image_sha256": "50d8d5a623859e6495bc80fcf5d765d3105293ca4526ac878b30db152491a123",
+      "table_sha256": "5f0cdb20ed60c4a211991a112abc53bf24d5f18d4c5337d39446fb916b00edb4",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_ENROLMENT_RATE_IN_SECONDARY_AND_TERTIARY_EDUCATION_CZE_DEU_EST_FIN_FRA_000000.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_ENROLMENT_RATE_IN_SECONDARY_AND_TERTIARY_EDUCATION_CZE_DEU_EST_FIN_FRA_000000.csv"
+    },
+    {
+      "id": "O048",
+      "source_group": "health-statistics",
+      "image_sha256": "9a2318ada52fb50d91b6a86cd62e00c3d4eaaad519aa0b42052c1129dcd92bc9",
+      "table_sha256": "e9afcfe71c45352cd457e6a937002e40058f6b589b10707b968c281d13e779c8",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_HOSPITAL_BEDS_AUT_CRI_ITA_LVA_NZL_000018.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_HOSPITAL_BEDS_AUT_CRI_ITA_LVA_NZL_000018.csv"
+    },
+    {
+      "id": "O068",
+      "source_group": "health-statistics",
+      "image_sha256": "cfd82c8c17deaf66bbbde1285bf67349084ea88f2dbd4a7bd0317bcb7119f83f",
+      "table_sha256": "aae61c5cc28852dcb0a2315db13ce6458c2fb176c9bcae4c9a15ce81b726de5a",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_MAGNETIC_RESONANCE_IMAGING_%28MRI%29_UNITS_CHE_ISL_POL_000013.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_MAGNETIC_RESONANCE_IMAGING_%28MRI%29_UNITS_CHE_ISL_POL_000013.csv"
+    },
+    {
+      "id": "O069",
+      "source_group": "health-statistics",
+      "image_sha256": "9e49e120f4bfccb7df22c093ae62c4d1fb3f634d2a3a974ee180b49dfcdc78ec",
+      "table_sha256": "bf59d263522ab618c8dc0a1a0539c1b243f419ce814da8defb8fc03cb43b0a73",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_MAMMOGRAPHY_MACHINES_ESP_FIN_FRA_000002.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_MAMMOGRAPHY_MACHINES_ESP_FIN_FRA_000002.csv"
+    },
+    {
+      "id": "O072",
+      "source_group": "education-statistics",
+      "image_sha256": "5198a17db4e2f014c5e1ca110acb5341171c2b845683d000a172e3ef943bec56",
+      "table_sha256": "fae9c6abca8b856150c81cd8b3cc899530417956f272f529f435e9881b583dce",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_MATHEMATICS_PERFORMANCE_%28PISA%29_IDN_MAC_NLD_SGP_000000.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_MATHEMATICS_PERFORMANCE_%28PISA%29_IDN_MAC_NLD_SGP_000000.csv"
+    },
+    {
+      "id": "O078",
+      "source_group": "health-statistics",
+      "image_sha256": "d5aa1382527cb7fb36e5753ef180440de29d140520b9edf6d4780e6c11f984c8",
+      "table_sha256": "ed2c797d074d42858e865fde2f481f1fad78fc502542c01c8b7643fef5194eea",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_NURSES_BRA_JPN_RUS_000006.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_NURSES_BRA_JPN_RUS_000006.csv"
+    },
+    {
+      "id": "O080",
+      "source_group": "education-statistics",
+      "image_sha256": "ca7b452aa8b2cc97f5b16b959f9a9464a5428f12b915cbe303840d4906cbd3f8",
+      "table_sha256": "a90c59bcc161735c2ea791ed8119cbd4f7f9a877e01f16e88a1d3381f0da4b06",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_POPULATION_WITH_TERTIARY_EDUCATION_EST_POL_000000.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_POPULATION_WITH_TERTIARY_EDUCATION_EST_POL_000000.csv"
+    },
+    {
+      "id": "O084",
+      "source_group": "education-statistics",
+      "image_sha256": "05e1a6c13cd92179d59b0f86df53737ce85685f6859434ca581bc017dbb61a4d",
+      "table_sha256": "f88ce456a6b84ea14d31a4db5f5481afcd3d7c3ad9c05b16733be1d0690de06f",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_PUBLIC_SPENDING_ON_EDUCATION_AUT_COL_000002.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_PUBLIC_SPENDING_ON_EDUCATION_AUT_COL_000002.csv"
+    },
+    {
+      "id": "O086",
+      "source_group": "education-statistics",
+      "image_sha256": "b9fda964e418d3253fa8c9fae5a1d7602253375758add01e8195ae986c194b33",
+      "table_sha256": "4b4531f91ce7add8cc270bac332dae235067b6464785ee218fba4565aae06ab5",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_SCIENCE_PERFORMANCE_%28PISA%29_GRC_IDN_000001.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_SCIENCE_PERFORMANCE_%28PISA%29_GRC_IDN_000001.csv"
+    },
+    {
+      "id": "O092",
+      "source_group": "education-statistics",
+      "image_sha256": "e294a1fb41d050a73f093ccf68f157ce560cbe1f8d44c4341cc3348b4d8018da",
+      "table_sha256": "b14671a6e9f25447cb8727d401769565ff91913b0c8b2c0413ef203e7b09b82e",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_STUDENTS_PER_TEACHING_STAFF_DEU_ESP_NOR_000002.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_STUDENTS_PER_TEACHING_STAFF_DEU_ESP_NOR_000002.csv"
+    },
+    {
+      "id": "O093",
+      "source_group": "health-statistics",
+      "image_sha256": "2bf40946f1c035cf034c60299341f7d34bbe09b17a475b7a2e8b3445957808a3",
+      "table_sha256": "64c9970cbae67b6c59e509b91fddffee2d6efde1f4cf3291933d534357bfe14f",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_SUICIDE_RATES_BRA_CAN_LVA_NZL_SVN_000008.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_SUICIDE_RATES_BRA_CAN_LVA_NZL_SVN_000008.csv"
+    },
+    {
+      "id": "O098",
+      "source_group": "education-statistics",
+      "image_sha256": "3695353e49caac8d9ae599790e68a4f23f30dc9887ae465e54c96f5c1f37a8bb",
+      "table_sha256": "bcda05592351bb7b5e60f6afeb2c31f33eb56cab20b63043f786635ef5c8362d",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/png/OECD_TERTIARY_GRADUATION_RATE_CHL_CRI_LUX_000002.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/train/tables/OECD_TERTIARY_GRADUATION_RATE_CHL_CRI_LUX_000002.csv"
+    },
+    {
+      "id": "O109",
+      "source_group": "education-statistics",
+      "image_sha256": "bc680eefc724790237d519f2079687b89065d503483e7829f3df48d296d9927d",
+      "table_sha256": "68b4adbb9b4a5d5474fc852a34d5f5a9059179d6b5f945bb218eca74dd5a41a1",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/png/OECD_ADULT_EDUCATION_LEVEL_CZE_NZL_000011.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/tables/OECD_ADULT_EDUCATION_LEVEL_CZE_NZL_000011.csv"
+    },
+    {
+      "id": "O118",
+      "source_group": "health-statistics",
+      "image_sha256": "e92f094b0d29a5be03092de8d8d30789b982dc3a38a1a3f0e1d6d3eadcced789",
+      "table_sha256": "a32f39a37ca6bacd6be3d2ea22cbe6a989840428828d34f0a8fa4d48a73ade0a",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/png/OECD_LENGTH_OF_HOSPITAL_STAY_AUT_FIN_IRL_POL_USA_000019.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/tables/OECD_LENGTH_OF_HOSPITAL_STAY_AUT_FIN_IRL_POL_USA_000019.csv"
+    },
+    {
+      "id": "O120",
+      "source_group": "health-statistics",
+      "image_sha256": "68d51390b730be58ca94dab937306a33ccb7bd1a145fb347f530c230534c1bce",
+      "table_sha256": "40853aff3404fa274f0478165f6a0dd5c72538f68496509bdfbabaceb4f6d4bc",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/png/OECD_MAGNETIC_RESONANCE_IMAGING_%28MRI%29_EXAMS_AUT_CAN_GRC_ITA_000003.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/tables/OECD_MAGNETIC_RESONANCE_IMAGING_%28MRI%29_EXAMS_AUT_CAN_GRC_ITA_000003.csv"
+    },
+    {
+      "id": "O123",
+      "source_group": "education-statistics",
+      "image_sha256": "78a5b3f39650780107280137e3dad2b6cd81bc84801e7131b3a6da686bb988ed",
+      "table_sha256": "86974db115a0d98055b0affc8c3b9b3a78d39189dc9523439e220dd34c247d81",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/png/OECD_PRIVATE_SPENDING_ON_EDUCATION_ARG_RUS_000004.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/tables/OECD_PRIVATE_SPENDING_ON_EDUCATION_ARG_RUS_000004.csv"
+    },
+    {
+      "id": "O124",
+      "source_group": "education-statistics",
+      "image_sha256": "6cef420192b9d1897ffe6f2e0fc75390bac286b34516a63bfcb9a86aaea3dc28",
+      "table_sha256": "e58730782e963288b9efdfa7ae90de0834d9c6e29f50499df54b4709c8af474f",
+      "image_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/png/OECD_READING_PERFORMANCE_%28PISA%29_DEU_DNK_FIN_IDN_LTU_000003.png",
+      "table_url": "https://raw.githubusercontent.com/vis-nlp/ChartQA/044eabfc306abfe9340c5741f0093aefc5973d06/ChartQA%20Dataset/val/tables/OECD_READING_PERFORMANCE_%28PISA%29_DEU_DNK_FIN_IDN_LTU_000003.csv"
+    }
+  ],
+  "gold_sha256": "ee70ba5901074a6458f511aefc036934f527743f1c5d6457226e3e0eb10e2b89"
+}

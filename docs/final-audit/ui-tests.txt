@@ -1,0 +1,23 @@
+
+Running 18 tests using 3 workers
+
+  ok  1 tests\student.spec.ts:7:1 › one known value is never presented as the overall maximum and minimum (299ms)
+  ok  3 tests\teacher.spec.ts:28:40 › sharing notice reflects configured public access false (420ms)
+  ok  4 tests\student.spec.ts:15:1 › partial extrema are explicitly limited to the known subset (193ms)
+  ok  5 tests\teacher.spec.ts:28:40 › sharing notice reflects configured public access true (313ms)
+  ok  2 tests\upload.spec.ts:4:1 › keyboard upload, unreviewed results and no automated accessibility violations (808ms)
+  ok  6 tests\student.spec.ts:21:1 › student keyboard comparison and repeat announcement update; no model request (619ms)
+  ok  8 tests\upload.spec.ts:19:1 › invalid upload focuses accessible error and retry works (440ms)
+  ok  9 tests\student.spec.ts:42:1 › all unknown values and unknown unit never become a numeric zero (563ms)
+  ok 10 tests\student.spec.ts:55:1 › server error focuses alert, retry recovers and focuses title (496ms)
+  ok  7 tests\teacher.spec.ts:34:1 › teacher phase and original AI state stay distinct through approval (1.6s)
+  ok 11 tests\student.spec.ts:66:31 › direct URL 403 is a human-readable student error (157ms)
+  ok 13 tests\student.spec.ts:66:31 › direct URL 404 is a human-readable student error (158ms)
+  ok 12 tests\teacher.spec.ts:63:1 › opening an existing approval does not call it newly created (299ms)
+  ok 14 tests\student.spec.ts:74:1 › invalid response and network errors have Japanese messages (223ms)
+  ok 15 tests\student.spec.ts:81:1 › a pending request times out with an accessible retry action (180ms)
+  ok 16 tests\student.spec.ts:94:35 › 12 long categories fit viewport 320 (524ms)
+  ok 17 tests\student.spec.ts:94:35 › 12 long categories fit viewport 390 (533ms)
+  ok 18 tests\student.spec.ts:94:35 › 12 long categories fit viewport 1280 (520ms)
+
+  18 passed (7.7s)

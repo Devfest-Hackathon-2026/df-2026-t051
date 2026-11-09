@@ -1,0 +1,15 @@
+{
+  "runtime_project_roles": [
+    "roles/datastore.user",
+    "roles/firebaseauth.viewer"
+  ],
+  "runtime_image_bucket_roles": [
+    "roles/storage.objectCreator",
+    "roles/storage.objectViewer"
+  ],
+  "runtime_single_secret_roles": [
+    "roles/secretmanager.secretAccessor"
+  ],
+  "project_owner_or_editor": false,
+  "note": "Read-only audit. No IAM grants changed except the separately approved service-level public invoker binding."
+}

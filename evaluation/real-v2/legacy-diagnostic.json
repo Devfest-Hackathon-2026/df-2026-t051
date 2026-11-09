@@ -1,0 +1,113 @@
+{
+  "cases": [
+    {
+      "id": "R02",
+      "cache": ".tmp/real-materials/maff-39.png",
+      "image_sha256": "70388617e0b2fa284d01a4355f2305861016234db18af71dc2e0b432fd56566a",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-39.png",
+      "source_group": "legacy-maff-known",
+      "gold": {
+        "supported": true,
+        "title": "うめの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "和歌山",
+            "value": 64
+          },
+          {
+            "label": "群馬",
+            "value": 4
+          },
+          {
+            "label": "山梨",
+            "value": 2
+          },
+          {
+            "label": "三重",
+            "value": 2
+          },
+          {
+            "label": "福井",
+            "value": 1
+          }
+        ]
+      },
+      "gold_independently_verified": false,
+      "note": "Previously exposed image-transcription gold, not independently sourced CSV. Diagnostic only; exclude from real-v2 accuracy."
+    },
+    {
+      "id": "R03",
+      "cache": ".tmp/real-materials/maff-40.png",
+      "image_sha256": "e9e6afb26ba8b7a3f25fedf85fa7ae9ae0b63d5a15d6850b8df6aefab3de5e3b",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-40.png",
+      "source_group": "legacy-maff-known",
+      "gold": {
+        "supported": true,
+        "title": "ミニトマトの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "熊本",
+            "value": 41
+          },
+          {
+            "label": "愛知",
+            "value": 16
+          },
+          {
+            "label": "北海道",
+            "value": 15
+          },
+          {
+            "label": "宮崎",
+            "value": 9
+          },
+          {
+            "label": "茨城",
+            "value": 8
+          }
+        ]
+      },
+      "gold_independently_verified": false,
+      "note": "Previously exposed image-transcription gold, not independently sourced CSV. Diagnostic only; exclude from real-v2 accuracy."
+    },
+    {
+      "id": "R05",
+      "cache": ".tmp/real-materials/maff-41.png",
+      "image_sha256": "f55a7390031d419f5163768f37dd6dc1d8cd2bdeb10333f2663053d8b73629dd",
+      "image_url": "https://www.maff.go.jp/j/kids/kodomo_kasumi/2024/content/attach/img/toukei-41.png",
+      "source_group": "legacy-maff-known",
+      "gold": {
+        "supported": true,
+        "title": "ブロッコリーの生産量上位5都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "北海道",
+            "value": 28
+          },
+          {
+            "label": "埼玉",
+            "value": 16
+          },
+          {
+            "label": "愛知",
+            "value": 15
+          },
+          {
+            "label": "香川",
+            "value": 13
+          },
+          {
+            "label": "徳島",
+            "value": 12
+          }
+        ]
+      },
+      "gold_independently_verified": false,
+      "note": "Previously exposed image-transcription gold, not independently sourced CSV. Diagnostic only; exclude from real-v2 accuracy."
+    }
+  ],
+  "purpose": "Capture response/finish reason for three previously failed MAFF inputs; not independent evaluation or primary precision denominator"
+}

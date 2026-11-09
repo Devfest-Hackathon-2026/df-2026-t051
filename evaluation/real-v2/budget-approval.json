@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "recorded_date": "2026-11-06",
+  "user_answer": "上限を5米ドルにする",
+  "max_estimated_usd": 5,
+  "max_generation_attempts": 300,
+  "max_count_attempts": 300,
+  "maximum_concurrency": 2,
+  "production_deployment_approved": false,
+  "new_paid_resources_approved": false,
+  "public_access_change_approved": false
+}

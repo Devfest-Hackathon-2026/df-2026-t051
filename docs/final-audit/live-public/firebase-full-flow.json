@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-11-06T09:34:02.445Z",
+  "auth": "real Firebase email/password",
+  "cloud": true,
+  "teacherLogin": 200,
+  "noTeacherClaim": 403,
+  "otherOwner": 404,
+  "sourceImageReload": true,
+  "teacherNumericCorrection": 13,
+  "unknownOrigin": "teacher explicitly cleared second value after real extraction of fully labelled chart",
+  "rulesDirectAccess": [
+    {
+      "role": "teacher",
+      "status": 403
+    },
+    {
+      "role": "student",
+      "status": 403
+    }
+  ],
+  "snapshotId": "ae12d4de0ab84cd2b5bb8fa61655111f",
+  "comparisonSnapshotId": "6e24c58117ad4a6e88d610b9b09bb47c",
+  "shareUrl": "https://chartbridge-gqe6dtznpq-an.a.run.app/learn/6e24c58117ad4a6e88d610b9b09bb47c",
+  "approvedRead": 200,
+  "postApprovalUpdate": 409,
+  "unknownExcluded": true,
+  "comparisonDifference": 6,
+  "studentAnalyzeCalls": 0,
+  "teacherAxe": 0,
+  "studentAxe": 0,
+  "responsive": [
+    {
+      "width": 320,
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "axeViolations": 0
+    },
+    {
+      "width": 1280,
+      "axeViolations": 0
+    }
+  ],
+  "directUrlReload": true,
+  "missingMaterialErrorFocus": true,
+  "revokedTokenStatus": 401
+}

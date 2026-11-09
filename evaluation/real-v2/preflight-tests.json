@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-06",
+  "stage": "pre-inference; user budget reply pending",
+  "pythonPassed": 107,
+  "pythonFailed": 0,
+  "mathPassed": 4,
+  "playwrightPassed": 16,
+  "deployedRulesPassed": 45,
+  "totalPassed": 172,
+  "typescript": "passed",
+  "productionBuild": "passed",
+  "newGenerationAttempts": 0,
+  "newCountTokensAttempts": 0,
+  "modelMetadataReads": 1,
+  "estimatedGenerationCostUsd": 0,
+  "unapprovedRunnerPreflight": "refused before API request",
+  "numericParser": "draft, not connected to production extraction",
+  "liveCloudE2ERerun": false,
+  "holdoutConsumed": false,
+  "cloudDeployment": "unchanged",
+  "publicAccessChange": false,
+  "newPaidResources": false
+}

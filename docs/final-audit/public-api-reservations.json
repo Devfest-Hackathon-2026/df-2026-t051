@@ -1,0 +1,15 @@
+{
+  "maximum_generation_calls": 2,
+  "maximum_count_calls": 2,
+  "conservative_reserved_usd": "0.073728",
+  "ledger_indices": [
+    {
+      "generation": 453,
+      "count": 454
+    },
+    {
+      "generation": 455,
+      "count": 456
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "started_at": "2026-11-06T05:09:32.175357+00:00",
+  "model": "gemini-3.8-flash",
+  "manifest_sha256": "1e188720f7b01624c7a9c7e966387296bb792f5a3ea9a01d5de58787c9d30718",
+  "extractor_sha256": "4f0a45463bbb162b9b5dd00cf28b11e2680e38fddcd17f74d555a23049807866",
+  "cases": [
+    {
+      "id": "R01",
+      "compound_notation": false,
+      "expected_cells": 5,
+      "result": {
+        "supported": true,
+        "reason": null,
+        "title": "こめの生産量上位 5 都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "新潟",
+            "value": 59.0,
+            "evidence": "59"
+          },
+          {
+            "label": "北海道",
+            "value": 54.0,
+            "evidence": "54"
+          },
+          {
+            "label": "秋田",
+            "value": 46.0,
+            "evidence": "46"
+          },
+          {
+            "label": "山形",
+            "value": 36.0,
+            "evidence": "36"
+          },
+          {
+            "label": "宮城",
+            "value": 34.0,
+            "evidence": "34"
+          }
+        ],
+        "warnings": []
+      },
+      "schema_valid": true,
+      "numeric_correct": 5,
+      "category_correct": 5,
+      "title_correct": true,
+      "unit_correct": true,
+      "ton_equivalent_correct": 5,
+      "null_values": 0,
+      "complete_match": true,
+      "seconds": 6.583
+    },
+    {
+      "id": "R02",
+      "compound_notation": true,
+      "expected_cells": 5,
+      "result": {
+        "supported": true,
+        "reason": null,
+        "title": "うめの生産量上位５都道府県",
+        "unit": "千t",
+        "categories": [
+          {
+            "label": "和歌山",
+            "value": 64000.0,
+            "evidence": "6万4千"
+          },
+          {
+            "label": "群馬",
+            "value": 4.0,
+            "evidence": "4"
+          },
+          {
+            "label": "山梨",
+            "value": 2.0,
+            "evidence": "2"
+          },
+          {
+            "label": "三重",
+            "value": 2.0,
+            "evidence": "2"
+          },
+          {
+            "label": "福井",
+            "value": 1.0,
+            "evidence": "1"
+          }
+        ],
+        "warnings": []
+      },
+      "schema_valid": true,
+      "numeric_correct": 4,
+      "category_correct": 5,
+      "title_correct": true,
+      "unit_correct": true,
+      "ton_equivalent_correct": 4,
+      "null_values": 0,
+      "complete_match": false,
+      "seconds": 20.824
+    },
+    {
+      "id": "R03",
+      "compound_notation": true,
+      "expected_cells": 5,
+      "schema_valid": false,
+      "error_type": "ValidationError",
+      "status_code": null,
+      "numeric_correct": 0,
+      "category_correct": 0,
+      "title_correct": false,
+      "unit_correct": false,
+      "ton_equivalent_correct": 0,
+      "null_values": 0,
+      "complete_match": false,
+      "seconds": 37.085
+    },
+    {
+      "id": "R04",
+      "compound_notation": false,
+      "expected_cells": 5,
+      "result": {
+        "supported": true,
+        "reason": null,
+        "title": "レタスの生産量上位５都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "長野",
+            "value": 18.0,
+            "evidence": "18"
+          },
+          {
+            "label": "茨城",
+            "value": 9.0,
+            "evidence": "9"
+          },
+          {
+            "label": "群馬",
+            "value": 6.0,
+            "evidence": "6"
+          },
+          {
+            "label": "長崎",
+            "value": 4.0,
+            "evidence": "4"
+          },
+          {
+            "label": "静岡",
+            "value": 3.0,
+            "evidence": "3"
+          }
+        ],
+        "warnings": []
+      },
+      "schema_valid": true,
+      "numeric_correct": 5,
+      "category_correct": 5,
+      "title_correct": true,
+      "unit_correct": true,
+      "ton_equivalent_correct": 5,
+      "null_values": 0,
+      "complete_match": true,
+      "seconds": 4.534
+    },
+    {
+      "id": "R05",
+      "compound_notation": true,
+      "expected_cells": 5,
+      "schema_valid": false,
+      "error_type": "ValidationError",
+      "status_code": null,
+      "numeric_correct": 0,
+      "category_correct": 0,
+      "title_correct": false,
+      "unit_correct": false,
+      "ton_equivalent_correct": 0,
+      "null_values": 0,
+      "complete_match": false,
+      "seconds": 33.609
+    },
+    {
+      "id": "R06",
+      "compound_notation": false,
+      "expected_cells": 5,
+      "result": {
+        "supported": true,
+        "reason": null,
+        "title": "たまごの生産量上位５都道府県",
+        "unit": "万t",
+        "categories": [
+          {
+            "label": "茨城",
+            "value": 23.0,
+            "evidence": "23"
+          },
+          {
+            "label": "鹿児島",
+            "value": 18.0,
+            "evidence": "18"
+          },
+          {
+            "label": "広島",
+            "value": 14.0,
+            "evidence": "14"
+          },
+          {
+            "label": "岡山",
+            "value": 13.0,
+            "evidence": "13"
+          },
+          {
+            "label": "千葉",
+            "value": 13.0,
+            "evidence": "13"
+          }
+        ],
+        "warnings": []
+      },
+      "schema_valid": true,
+      "numeric_correct": 5,
+      "category_correct": 5,
+      "title_correct": true,
+      "unit_correct": true,
+      "ton_equivalent_correct": 5,
+      "null_values": 0,
+      "complete_match": true,
+      "seconds": 6.234
+    }
+  ],
+  "summary": {
+    "images": 6,
+    "expected_cells": 30,
+    "numeric_correct": 19,
+    "category_correct": 20,
+    "title_correct": 4,
+    "unit_correct": 4,
+    "ton_equivalent_correct": 19,
+    "null_values": 0,
+    "complete_match": 3,
+    "schema_failures": 2,
+    "mean_seconds": 18.145,
+    "median_seconds": 13.704,
+    "max_seconds": 37.085
+  },
+  "completed_at": "2026-11-06T05:11:21.057774+00:00"
+}
