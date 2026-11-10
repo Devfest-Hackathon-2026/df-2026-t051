@@ -1,0 +1,154 @@
+{
+  "format": "rights-publication-v2",
+  "date_jst": "2026-11-10",
+  "base_public_commit": "00f4f814fdf374dfdde8c2dbba096102e0f80aa5",
+  "scope": "All commits reachable from the rewritten main. Old GitHub commit URLs, caches and external copies may remain.",
+  "row_data_removed": true,
+  "source_index_fields": [
+    "attribution",
+    "dataset_revision",
+    "id",
+    "image_sha256",
+    "image_url",
+    "publisher",
+    "rights_url",
+    "sha256",
+    "source_group",
+    "source_page",
+    "split",
+    "table_sha256",
+    "table_url",
+    "terms_url"
+  ],
+  "case_record_fields": [
+    "counted_input_tokens",
+    "error_type",
+    "finish_reasons",
+    "generation_request_seconds",
+    "id",
+    "raw_response_recorded",
+    "raw_schema_valid",
+    "request_timings",
+    "score",
+    "seconds",
+    "started_at",
+    "status_code",
+    "usage"
+  ],
+  "score_fields": [
+    "appropriate_null",
+    "category_correct",
+    "complete_match",
+    "expected_cells",
+    "expected_known",
+    "expected_null",
+    "extra_cells",
+    "findings",
+    "input_validation_rejected",
+    "missing_cells",
+    "numeric_correct",
+    "returned_null",
+    "schema_valid",
+    "scope_correct",
+    "title_correct",
+    "unit_correct",
+    "unit_exact",
+    "unit_mismatch_confirmed_cells",
+    "unnecessary_null",
+    "wrong_confirmed"
+  ],
+  "redacted_files": [
+    {
+      "path": "evaluation/real-v2/development.json",
+      "original_sha256": "69da8ddea855703ee0a5f4cb26f80d5e7cf9700967576e06e5e14b8f11bdc1bf",
+      "public_sha256": "f591bacbfd2060b2545f46729102ebb7d5f0d60c61b4e97883892df9b3603abe"
+    },
+    {
+      "path": "evaluation/real-v2/anomalies.json",
+      "original_sha256": "98d6c4e85870eaf40d325ad6f1acd510e41bd0ec15c6e4fcadf7007375981d85",
+      "public_sha256": "bce9e4965d47a9a4c1c8ffefc475ab3cd7bfe8af9f1cf3d18838837cd65b7873"
+    },
+    {
+      "path": "evaluation/real-v2/runs/anomaly-baseline/cases.jsonl",
+      "original_sha256": "df5c988fb446637c34560f29ea70746b431ad323c189c5f221d320a9fcb0b33a",
+      "public_sha256": "c35c14c16bb1b03bb557b5c0091d9657ef00b82c4103f6102b6736664fdeecc1"
+    },
+    {
+      "path": "evaluation/real-v2/runs/anomaly-cycle1/cases.jsonl",
+      "original_sha256": "46aaad1c3d16a11bc746d0c3137cb9db2b0948a95c8d6c73e1ec6595e93b6621",
+      "public_sha256": "faf230e620f1940e6d1af58ecfa9ba1efe5cd58cefa09044e8f2fd4584d9911a"
+    },
+    {
+      "path": "evaluation/real-v2/runs/anomaly-input-filter-check/cases.jsonl",
+      "original_sha256": "87230ab87ab5889ac26f2b270c2f909fc26c31448ac5c3ceeb015eef6e5a241f",
+      "public_sha256": "93d55c9a887a10d892e9b6b5d87806d503f7cc5ea9e61141b2d2252af837729c"
+    },
+    {
+      "path": "evaluation/real-v2/runs/candidate-transport/cases.jsonl",
+      "original_sha256": "620d3d9b1bf90990429c48e3864e23f3e78ca9bce734c8c671ff2ea7d433b580",
+      "public_sha256": "6ad1b16c2fd6e00262138bb5d0b4285da7ba13fbdaf134fed3cba0e7989ac46c"
+    },
+    {
+      "path": "evaluation/real-v2/runs/development-baseline/cases.jsonl",
+      "original_sha256": "6cff6ee15a918121e930c9dc7c670fb96841bec14f6c2af8eb826e99d7952267",
+      "public_sha256": "1be489a8d98c315170326eaab06f55bf3bb719d5e76be07f9c3aa1d24598b1ad"
+    },
+    {
+      "path": "evaluation/real-v2/runs/development-cycle1/cases.jsonl",
+      "original_sha256": "d2546e9473127236d8485e640b81d7b81004951b83ddb03bea1e7f4172cfa7f1",
+      "public_sha256": "b555f24b2b774ced2156cbaba4d292465994451309530b9f47d5ab9b3e6c5cd0"
+    },
+    {
+      "path": "evaluation/real-v2/runs/final-once/cases.jsonl",
+      "original_sha256": "7d3d1e48dac5e8e84660f3643600818d50ab16731e74946e3c6d2b75ffd83db0",
+      "public_sha256": "c1f08d853f44211cc8b78215fb3d3e456366f958600ab9b6e01370e228f12436"
+    },
+    {
+      "path": "evaluation/real-v2/runs/transport-smoke/cases.jsonl",
+      "original_sha256": "a11d3f3ac851ca7a8d3daa8c27be673fcb500364f407561e4e3b37f701706510",
+      "public_sha256": "a5f527ca4fb1ac06029e93420f11316c39a1c48196fb85154540fd66122b243e"
+    },
+    {
+      "path": "evaluation/real-v2/runs/transport-smoke2/cases.jsonl",
+      "original_sha256": "f2a486d3c8654a87d612ffa028762a3c5961ae7c60b34d21b188c92ed5a3ddb2",
+      "public_sha256": "b65c2ab756ba5122e57d604640afaab840fcbedd8f71809f73898ad3a0de5ea9"
+    },
+    {
+      "path": "evaluation/real-v2/runs/transport-smoke3/cases.jsonl",
+      "original_sha256": "f504d1219b474c1f62be850da14edff1e3ca8da65ad915e6997a9130ea9f8a15",
+      "public_sha256": "23b81716bb578db7f63c112de6d6ca3b56ff8c12ea38e1361eedd77cfdadb1db"
+    },
+    {
+      "path": "evaluation/real-v2/runs/anomaly-baseline/analysis.json",
+      "original_sha256": "905c31dc6f2749a6d7736900ca9c541f8885c8375fb24d01f6db0d74a9244edb",
+      "public_sha256": "1ee14c6384ecfe810bbcb996ed67d0c2d32a2ae31e2ea854e238c6529d7d4582"
+    },
+    {
+      "path": "evaluation/real-v2/runs/anomaly-cycle1/analysis.json",
+      "original_sha256": "7641fd8af457cc8137b418ac1fdad40208b090e48de1b5e8d170b393ae53a610",
+      "public_sha256": "894f94df259452ce62e13b30ddc644c4e46ccfb720a52d3cad74f6cb21219137"
+    },
+    {
+      "path": "evaluation/real-v2/runs/development-baseline/analysis.json",
+      "original_sha256": "8eaadf6c8d8d6747086d98b85846bef6d5de8fcc0d763c21202787e918888e3d",
+      "public_sha256": "f8e4854192f76c36ec6fefc838bc81c24fd5ece79aef4866edb34685bea2127b"
+    },
+    {
+      "path": "evaluation/real-v2/runs/development-cycle1/analysis.json",
+      "original_sha256": "8e8df2717dcfab98fd88f089c96794a7e0de28d1416a1620ea33633cd6e6b985",
+      "public_sha256": "dd5812c65360783e46dd3f0debef7dbfc7b5277f2bcd3ed3c0f2d9ce5ec109ce"
+    },
+    {
+      "path": "evaluation/real-v2/final-report.json",
+      "original_sha256": "a78315f91d6b129943f8e053e95eaa1e65a04b4f0b4b9ba414be8df6930e8694",
+      "public_sha256": "b7470ecf468400ee9d17e0bd7d4829abc56438d20d258b80bd2eab0feb99ffe5"
+    }
+  ],
+  "original_development_sha256": "69da8ddea855703ee0a5f4cb26f80d5e7cf9700967576e06e5e14b8f11bdc1bf",
+  "historical_metrics_unchanged": true,
+  "original_freeze_records_unchanged": true,
+  "private_raw_records_required_for_rescoring": true,
+  "rights_clearance_complete": false,
+  "history_rewritten": true,
+  "reachable_main_history_redacted": true
+}

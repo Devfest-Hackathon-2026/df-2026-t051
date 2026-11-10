@@ -1,0 +1,74 @@
+{
+  "original_main": "00f4f814fdf374dfdde8c2dbba096102e0f80aa5",
+  "rewritten_main": "2efcb7c8a5f4c3b23845f2a20af86620b8d271d5",
+  "original_commits": 8,
+  "rewritten_commits": 8,
+  "replaced_blob_count": 17,
+  "target_paths": [
+    "evaluation/real-v2/anomalies.json",
+    "evaluation/real-v2/development.json",
+    "evaluation/real-v2/final-report.json",
+    "evaluation/real-v2/runs/anomaly-baseline/analysis.json",
+    "evaluation/real-v2/runs/anomaly-baseline/cases.jsonl",
+    "evaluation/real-v2/runs/anomaly-cycle1/analysis.json",
+    "evaluation/real-v2/runs/anomaly-cycle1/cases.jsonl",
+    "evaluation/real-v2/runs/anomaly-input-filter-check/cases.jsonl",
+    "evaluation/real-v2/runs/candidate-transport/cases.jsonl",
+    "evaluation/real-v2/runs/development-baseline/analysis.json",
+    "evaluation/real-v2/runs/development-baseline/cases.jsonl",
+    "evaluation/real-v2/runs/development-cycle1/analysis.json",
+    "evaluation/real-v2/runs/development-cycle1/cases.jsonl",
+    "evaluation/real-v2/runs/final-once/cases.jsonl",
+    "evaluation/real-v2/runs/transport-smoke/cases.jsonl",
+    "evaluation/real-v2/runs/transport-smoke2/cases.jsonl",
+    "evaluation/real-v2/runs/transport-smoke3/cases.jsonl"
+  ],
+  "backup_bundle_sha256": "2193b34e7e071cd35e6f0ff82e269d33c017cccd5eac85215d11cb058edac06a",
+  "commit_map": [
+    {
+      "old": "00f4f814fdf374dfdde8c2dbba096102e0f80aa5",
+      "new": "2efcb7c8a5f4c3b23845f2a20af86620b8d271d5"
+    },
+    {
+      "old": "553707a56680d8a00da5ffdbf023083d67ce3f10",
+      "new": "ffceb6a4ac7f2810a2de1e23f5e84dbbff29069b"
+    },
+    {
+      "old": "6c55cfa207f77beb54dbf121df2606eea8668298",
+      "new": "03d5100624e67c2835bfd52673e2e4f44c3ce7f0"
+    },
+    {
+      "old": "6cda466e915bed7abcc9002359c5df0d3785ba8b",
+      "new": "a833fdd93117850e30d09ba930ac71ea8bb4c016"
+    },
+    {
+      "old": "6e917bc22227d35ff0868ebd47f49ad943b4a52a",
+      "new": "51e743802710e41a1e6ee645f039e1a8dd54e68f"
+    },
+    {
+      "old": "75f53884be7036d267ce11e32b67dc493bdc47f0",
+      "new": "c3f9341340d3527cddad5e6c99b74da8fed3f17b"
+    },
+    {
+      "old": "d38993d24edcbafa53b7ce980938bf3b1dd36398",
+      "new": "8c7ff6090a4825c6048b399beb944ab9e287034c"
+    },
+    {
+      "old": "f3301619853431e1765d9c350283728cbc24427b",
+      "new": "57c0d1003c020bcbb947b1226699cdfc88b79e4b"
+    }
+  ],
+  "remote_refs_before": [
+    {
+      "ref": "refs/heads/main",
+      "sha": "00f4f814fdf374dfdde8c2dbba096102e0f80aa5"
+    }
+  ],
+  "published_backups": false,
+  "limitations": [
+    "Old GitHub commit URLs, caches, forks and external copies are outside Git reachability verification.",
+    "Remote refs were checked; unpushed work on other computers cannot be inspected.",
+    "History rewrite does not prove past use or every third-party right was cleared."
+  ],
+  "source_data_removed_from_reachable_history": true
+}
