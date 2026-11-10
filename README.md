@@ -1,5 +1,20 @@
 # ChartBridge
 
+## 大阪会場向け提出資料
+
+**チーム：Alpha & Omega ／ 大阪（現地）**  
+**正式締切：2026年11月10日19:00 JST**
+
+| 資料 | リンク |
+|---|---|
+| 提出フォルダ（Osaka_Alpha & Omega） | [開く](https://drive.google.com/drive/folders/1SBs445Yn8AM6VA5OnbQ6Jlkdm-ZsBitI) |
+| プロダクト説明ドキュメント（Google Docs） | [開く](https://docs.google.com/document/d/1mjmjexApEa5cjBL4bUDA1Wnqmg31SChkbehKajFKrPM/edit) |
+| 著作物利用シート（Google Sheets） | [開く](https://docs.google.com/spreadsheets/d/1x73ozWKlA7U-ZEED8p1_jaDY6C2S43hhRPJ3zbJ8RQA/edit) |
+| プレゼンスライド（Google Slides） | [開く](https://docs.google.com/presentation/d/1uf1nl6mqSw5fgxw6CNFvn4006zoECtUbovi7M340OpQ/edit) |
+| 完成済みデモ動画（MP4） | [開く](https://drive.google.com/file/d/147AmbDXne0s7MZwXLjomASzdDcKxMknh/view) |
+
+Google形式の資料とMP4はユーザーが作成済みです。リンクの掲載だけでは正式提出は完了しません。内容・共有権限・Slides内の動画再生・フォーム送信状況は未確認です。[提出前チェックリスト](submission/README.md#正式提出前の未確認事項)を参照してください。
+
 ## 審査員向けデモ
 
 ### [▶ 学生用デモを開く — ログイン不要](https://chartbridge-gqe6dtznpq-an.a.run.app/learn/6e24c58117ad4a6e88d610b9b09bb47c)
@@ -133,7 +148,7 @@ Pop-Location
 
 公式提出先：[Devfest-Hackathon-2026/df-2026-t051](https://github.com/Devfest-Hackathon-2026/df-2026-t051)。[大会README原文](docs/competition-readme.md)の規則を優先します。
 公式リポジトリは公開・最終提出用で、GitHub Actions／Pagesは使用禁止。開発履歴を持ち込まず、確認済みの最終ファイルを反映します。
-2026-11-05 10:00 JST以降に新規開発し、開始前PoCは流用していません。ユーザー指定締切は11月10日17:00 JST。運営の最新案内を優先します。
+2026-11-05 10:00 JST以降に新規開発し、開始前PoCは流用していません。大阪会場の正式締切は2026年11月10日19:00 JSTです。運営の最新案内を優先します。
 秘密情報と提出内容を確認した後、不要な開発履歴を持ち込まず最終ファイルを反映します。
 
 コード：MIT。[LICENSE](LICENSE)。依存OSS・外部データはそれぞれの利用条件を維持します。詳細な開発初期記録は[DEVELOPMENT.md](docs/DEVELOPMENT.md)に保存しています。

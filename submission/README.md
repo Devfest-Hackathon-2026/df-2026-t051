@@ -1,10 +1,22 @@
-# ChartBridge チームレビュー資料
+# ChartBridge 大阪会場向け提出資料
 
 Alpha & Omega / 大阪（現地）
 
-**確認用の下書きです。Google Driveへの完成版反映・共有設定・フォーム送信は保留中で、正式提出は完了していません。** 今回はチームメイトへの共有目的で、このフォルダへ資料を追加しました。
+**正式締切：2026年11月10日19:00 JST。** Google形式の資料とMP4はユーザーが作成済みです。以下は提出先リンクの案内であり、正式提出の完了報告ではありません。共有権限・資料内容・フォーム送信状況は未確認です。
 
-## まず確認する資料
+## Google形式の提出先
+
+| 資料 | リンク |
+|---|---|
+| 提出フォルダ（Osaka_Alpha & Omega） | [開く](https://drive.google.com/drive/folders/1SBs445Yn8AM6VA5OnbQ6Jlkdm-ZsBitI) |
+| プロダクト説明ドキュメント（Google Docs） | [開く](https://docs.google.com/document/d/1mjmjexApEa5cjBL4bUDA1Wnqmg31SChkbehKajFKrPM/edit) |
+| 著作物利用シート（Google Sheets） | [開く](https://docs.google.com/spreadsheets/d/1x73ozWKlA7U-ZEED8p1_jaDY6C2S43hhRPJ3zbJ8RQA/edit) |
+| プレゼンスライド（Google Slides） | [開く](https://docs.google.com/presentation/d/1uf1nl6mqSw5fgxw6CNFvn4006zoECtUbovi7M340OpQ/edit) |
+| 完成済みデモ動画（MP4） | [開く](https://drive.google.com/file/d/147AmbDXne0s7MZwXLjomASzdDcKxMknh/view) |
+
+このページではリンクを掲載するだけで、Google Driveのファイル・共有設定は変更していません。
+
+## GitHub上の編集用・確認用資料
 
 | 資料 | 編集用 | 確認用 |
 |---|---|---|
@@ -19,12 +31,16 @@ Officeファイルはダウンロードして編集してください。PPTXは�
 - [検証記録](<提出資料_検証結果_Alpha & Omega.json>)
 - [完成済みデモ動画](../output/submission/chartbridge-demo-final.mp4)
 
-## チームで最後に確認すること
+## 正式提出前の未確認事項
 
-- メンバー名・本人の担当と学び／成長・著作物の最終誓約は、本人記入のため空欄です。
+- [ ] Google Docsのメンバー名・本人の担当と学び／成長、著作物利用シートの誓約を本人が最終確認する。GitHub下書きで本人記入用に残した欄が、Google版で埋まっているかは未確認です。
 - 説明書PDFは同じ原稿から作る内容プレビューです。Word自体の最終改ページは未検証です。
-- PPTXの動画埋め込みと元動画とのバイト一致は確認済みですが、PowerPoint内の実再生とGoogle Slides変換後の実再生は未検証です。
+- [ ] Google Slidesに完成MP4が埋め込まれ、閲覧者として音声・字幕・再生を確認できるかチェックする。PPTXへの埋め込みと元動画とのバイト一致は確認済みですが、Google Slides内の実再生は未検証です。
+- [ ] Google Slidesが最新の8枚・ティール強調版を反映し、動画を含む4分以内で発表できるか確認する（GitHub版は235秒の設計、本人の発話時間は未計測）。
+- [ ] フォルダ名と各ファイル名が大会指定の名称になっているか確認する。上記フォルダリンクの表示名は指定名であり、Drive上の実名は今回読み取っていません。
+- [ ] 提出フォルダ・Docs・Sheets・Slides・MP4のすべてが、ログアウト／シークレットウィンドウから閲覧できるか確認する。共有設定の変更は本人が行う。
+- [ ] 教員機能の審査員用アカウントを案内する場合、非公開の連絡手段で提供済みか確認する。パスワードをGitHubへ掲載しない。
 - 日本語評価の完全一致14/20、数値111/145、未確定24件、実読み上げ未検証等の制約を保持しています。架空のユーザー調査や成長経験は記載していません。
-- 公式ルールの締切は2026年11月10日19:00 JST。提出には指定Google形式とDriveフォルダ・動画の共有確認、本人によるフォーム送信が別途必要です。
+- [ ] 本人の最終確認後、大会Googleフォームに正しい提出先リンクを登録し、2026年11月10日19:00 JSTまでの送信完了を確認する。本作業ではフォームへの入力・送信を行っていません。
 
-今回の変更はこの `submission/` の資料だけです。既存コード、既存評価、既存動画、Cloud Run、Firebase、Google Driveは変更しません。
+今回の変更はリポジトリ直下と `submission/` のREADMEだけです。既存コード・評価資料・デモ動画は保持し、Cloud Run・Firebase・Google Drive・Googleフォームは操作していません。
